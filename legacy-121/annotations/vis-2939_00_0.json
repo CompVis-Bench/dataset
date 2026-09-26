@@ -1,0 +1,31 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2939_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "icicle",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "节点横向分配"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "层级深度"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "节点色值"
+    }
+  ],
+  "image_observation": "矩形按层级自上向下展开，父节点覆盖子节点宽度，属于 icicle。"
+}

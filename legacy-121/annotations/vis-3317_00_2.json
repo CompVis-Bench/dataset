@@ -1,0 +1,62 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3317_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "link",
+      "encodings": {
+        "stroke.width": "F1",
+        "source": "F6",
+        "target": "F7"
+      },
+      "repetition_position": [],
+      "link_targets": [
+        "C2"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4",
+        "F5"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "学生数"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "条件"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "满足条件人数"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "步骤"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "阶段"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "流带起点节点"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "流带终点节点"
+    }
+  ],
+  "image_observation": "状态流的节点内部含条件色格，状态模板由步骤列与阶段层决定。"
+}

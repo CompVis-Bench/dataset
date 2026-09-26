@@ -1,0 +1,31 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "single_boxplot",
+      "encodings": {
+        "position.x": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F2",
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_bar",
+      "encodings": {
+        "color": "F8",
+        "position.y": "F4",
+        "position.x": "F7"
+      },
+      "external_encodings": {
+        "position": [
+          "F6"
+        ]
+      }
+    }
+  ]
+}

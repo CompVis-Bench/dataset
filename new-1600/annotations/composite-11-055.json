@@ -1,0 +1,26 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "radial_tree",
+      "encodings": {
+        "position.theta": "F6",
+        "position.radius": "F5"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

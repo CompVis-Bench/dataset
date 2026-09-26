@@ -1,0 +1,31 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "horizon_chart",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F4",
+          "F5"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F6",
+        "position.y": "F7",
+        "color": "F8"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

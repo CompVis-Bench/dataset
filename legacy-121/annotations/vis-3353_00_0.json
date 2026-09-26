@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3353_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "数量"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "输入值分箱"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "目标值"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "特征"
+    }
+  ],
+  "image_observation": "每个特征列内是一幅横向分箱分布，粉蓝部分表达目标值；特征为一个外部因素。"
+}

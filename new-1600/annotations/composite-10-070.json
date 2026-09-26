@@ -1,0 +1,66 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "parallel_coordinates",
+      "encodings": {
+        "position.x": "F9",
+        "position.y": "F13"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "single_boxplot",
+      "encodings": {
+        "position.y": "F10"
+      },
+      "external_encodings": {
+        "position": [
+          "F14"
+        ]
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F11",
+        "position.y": "F6",
+        "color": "F7"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F12",
+        "position.y": "F15"
+      },
+      "external_encodings": {
+        "position": [
+          "F8"
+        ]
+      }
+    }
+  ]
+}

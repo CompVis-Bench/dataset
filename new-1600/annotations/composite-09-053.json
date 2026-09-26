@@ -1,0 +1,61 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F1",
+        "color": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F12",
+        "color": "F5"
+      },
+      "external_encodings": {
+        "position": [
+          "F6",
+          "F7",
+          "F8"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F13",
+        "color": "F14"
+      },
+      "external_encodings": {
+        "position": [
+          "F11"
+        ]
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "link",
+      "encodings": {
+        "source": "F15",
+        "target": "F16",
+        "stroke.width": "F17"
+      },
+      "external_encodings": {
+        "position": []
+      },
+      "link_targets": [
+        "C1",
+        "C3"
+      ]
+    }
+  ]
+}

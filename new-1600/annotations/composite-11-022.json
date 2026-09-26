@@ -1,0 +1,29 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "radial_area",
+      "encodings": {
+        "position.theta": "F1",
+        "position.radius": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F4",
+          "F5"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "radial_tree",
+      "encodings": {
+        "position.theta": "F6",
+        "position.radius": "F7"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

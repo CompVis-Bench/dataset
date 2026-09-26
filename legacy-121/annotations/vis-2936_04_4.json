@@ -1,0 +1,50 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2936_04_4",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3",
+        "size": "F4"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "contour",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F5"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "横向嵌入位置"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "纵向嵌入位置"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "点色值"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "点大小"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "密度层级"
+    }
+  ],
+  "image_observation": "大小略有差异的浅色点叠在蓝色分级等值区上，两系统共用嵌入坐标。"
+}

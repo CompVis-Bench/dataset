@@ -1,0 +1,43 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "link",
+      "encodings": {
+        "source": "F4",
+        "target": "F5"
+      },
+      "external_encodings": {
+        "position": []
+      },
+      "link_targets": [
+        "C2"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "geo_area",
+      "encodings": {
+        "color": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "grouped_bar",
+      "encodings": {
+        "position.x": "F11",
+        "position.y": "F9",
+        "color": "F10",
+        "position.x_offset": "F10"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

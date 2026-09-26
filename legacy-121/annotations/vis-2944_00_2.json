@@ -1,0 +1,81 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2944_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "single_radar",
+      "encodings": {
+        "position.theta": "F1",
+        "position.radius": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F4",
+        "color": "F5"
+      },
+      "repetition_position": [
+        "F6"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F7",
+        "color": "F5"
+      },
+      "repetition_position": [
+        "F6"
+      ]
+    },
+    {
+      "chart_id": "C4",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [],
+      "link_targets": [
+        "C1",
+        "C2",
+        "C3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "属性"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "排名"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "球员节点"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "比较占比"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "球员"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "比较节点"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "外环占比"
+    }
+  ],
+  "image_observation": "三个球员雷达图与比较节点内饼图、外侧弧段通过灰线连接。雷达与饼图的节点身份是各自一个外部字段。"
+}

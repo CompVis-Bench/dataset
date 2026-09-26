@@ -1,0 +1,40 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2933_00_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "contour",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "横向嵌入位置"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "纵向嵌入位置"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "簇类别"
+    }
+  ],
+  "image_observation": "暗色散点上叠加有色平滑簇区域；两者共享嵌入位置。"
+}

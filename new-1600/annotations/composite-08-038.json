@@ -1,0 +1,33 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "single_radar",
+      "encodings": {
+        "position.theta": "F1",
+        "position.radius": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3",
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F10",
+        "position.y": "F6",
+        "color": "F7"
+      },
+      "external_encodings": {
+        "position": [
+          "F8",
+          "F9"
+        ]
+      }
+    }
+  ]
+}

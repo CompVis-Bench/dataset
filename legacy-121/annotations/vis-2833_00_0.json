@@ -1,0 +1,33 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2833_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "local_x"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "local_y"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "group_panel"
+    }
+  ],
+  "image_observation": "四个 Group 面板是一个字段的四个取值，wrap 成 2×2；旧外部 x/y 均引用同一个 group 字段，去重为一个外部维度。"
+}

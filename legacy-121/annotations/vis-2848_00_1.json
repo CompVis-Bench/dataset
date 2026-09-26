@@ -1,0 +1,52 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2848_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "dendrogram",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F4",
+        "color": "F5"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "leaf_column"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "merge_height"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "resolution_panel"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "matrix_row"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "cell_value"
+    }
+  ],
+  "image_observation": "50/25/12 km 只构成一个面板字段。对应 tree 和 heatmap 共享这个外部字段、内部 leaf_column；树的合并高度属于内部 y。"
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3071_03_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F5",
+        "color": "F6"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F7",
+        "position.y": "F5"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C4",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [],
+      "link_targets": [
+        "C2",
+        "C3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "异常分数"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "频数"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "模型面板"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "属性"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "数据记录"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "属性差异"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "记录分数"
+    }
+  ],
+  "image_observation": "两侧各有顶部小分布、彩色记录属性条及内侧分数柱，中央连接对应记录。"
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2956_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "sunburst",
+      "encodings": {
+        "position.theta": "F1",
+        "position.radius": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F6",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F7",
+        "position.y": "F8"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "关键词份额"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "层级"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "趋势"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "主题"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "百分比"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "概率"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "关键词概率"
+    },
+    {
+      "field_id": "F8",
+      "image_role": "关键词"
+    }
+  ],
+  "image_observation": "三个主题列中分别是层级环图、散点与关键词水平条；每种模板继承一个主题字段。"
+}

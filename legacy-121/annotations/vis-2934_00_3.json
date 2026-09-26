@@ -1,0 +1,54 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2934_00_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "tree",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F6",
+        "color": "F5"
+      },
+      "repetition_position": [
+        "F1",
+        "F2",
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "树内横向位置"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "树深度"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "分类器面板"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "节点内橙灰类别"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "节点内柱高"
+    }
+  ],
+  "image_observation": "两个树面板中，节点内橙灰小柱是独立 bar 模板，继承树节点横向、深度及分类器面板定位。"
+}

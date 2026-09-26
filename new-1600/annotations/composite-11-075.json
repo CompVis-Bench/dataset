@@ -1,0 +1,25 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "euler_venn",
+      "encodings": {
+        "color": "F1"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "geo_point",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

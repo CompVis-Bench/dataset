@@ -1,0 +1,69 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F6",
+        "color": "F7"
+      },
+      "external_encodings": {
+        "position": [
+          "F8"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "word_cloud",
+      "encodings": {
+        "text": "F9",
+        "size": "F10",
+        "color": "F11"
+      },
+      "external_encodings": {
+        "position": [
+          "F12"
+        ]
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F20",
+        "position.y": "F16"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C6",
+      "variation": "stacked_area",
+      "encodings": {
+        "position.x": "F20",
+        "position.y": "F17",
+        "color": "F19"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

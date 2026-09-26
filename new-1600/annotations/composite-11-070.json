@@ -1,0 +1,45 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "circlepacking",
+      "encodings": {
+        "size": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F2"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "tree",
+      "encodings": {
+        "position.x": "F3",
+        "position.y": "F4"
+      },
+      "external_encodings": {
+        "position": [
+          "F5"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "link",
+      "encodings": {
+        "source": "F6",
+        "target": "F7",
+        "stroke.width": "F8"
+      },
+      "external_encodings": {
+        "position": []
+      },
+      "link_targets": [
+        "C1",
+        "C2"
+      ]
+    }
+  ]
+}

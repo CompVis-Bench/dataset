@@ -1,0 +1,67 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3315_00_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "calendar_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "size": "F5",
+        "color": "F6"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [],
+      "link_targets": [
+        "C2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "周槽位"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "星期槽位"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "盈亏值"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "比较对象"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "交易金额"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "盈亏类型"
+    }
+  ],
+  "image_observation": "左右两个日历热图叠加交易气泡，并有跨对象的日期连接；两个模板按比较对象重复，连接为全局系统。"
+}

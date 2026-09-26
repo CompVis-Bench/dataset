@@ -1,0 +1,69 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3067_04_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "radial_tree",
+      "encodings": {
+        "position.theta": "F1",
+        "position.radius": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F3",
+        "color": "F4"
+      },
+      "repetition_position": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "single_line",
+      "encodings": {
+        "position.theta": "F6",
+        "position.radius": "F7"
+      },
+      "repetition_position": [
+        "F8"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "叶节点顺序"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "层级"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "文档占比"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "作者"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "局部序位"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "局部波动"
+    },
+    {
+      "field_id": "F8",
+      "image_role": "主题"
+    }
+  ],
+  "image_observation": "树的 theta/radius 使用 F1/F2；节点饼模板的外部定位直接复用 F1/F2。外圈小折线使用局部 theta/radius，并按主题重复。"
+}

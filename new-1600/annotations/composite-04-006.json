@@ -1,0 +1,18 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "word_cloud",
+      "encodings": {
+        "text": "F1",
+        "size": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3",
+          "F4"
+        ]
+      }
+    }
+  ]
+}

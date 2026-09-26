@@ -1,0 +1,30 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "parallel_coordinates",
+      "encodings": {
+        "color": "F3",
+        "position.x": "F2",
+        "position.y": "F1"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F8",
+        "position.y": "F5",
+        "color": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F7"
+        ]
+      }
+    }
+  ]
+}

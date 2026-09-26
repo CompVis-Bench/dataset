@@ -1,0 +1,47 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3306_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F4"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "指标值"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "密度"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "指标"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "线路"
+    }
+  ],
+  "image_observation": "三指标列顶部为分布面积，下方为线路数据条，两个模板共享指标和内部数值角色。"
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3307_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F1",
+        "color": "F2"
+      },
+      "repetition_position": [
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F5"
+      },
+      "repetition_position": [
+        "F3",
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "子集占比"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "子集"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "嵌入横向位置"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "嵌入纵向位置"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "胜率"
+    }
+  ],
+  "image_observation": "双色饼位于嵌入空间，外侧部分细弧与饼分开；两个模板共享二维定位。"
+}

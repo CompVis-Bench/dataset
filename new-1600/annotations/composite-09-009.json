@@ -1,0 +1,43 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F1",
+        "color": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3",
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "bar",
+      "encodings": {
+        "position.y": "F10",
+        "position.x": "F6"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "single_boxplot",
+      "encodings": {
+        "position.x": "F11"
+      },
+      "external_encodings": {
+        "position": [
+          "F9",
+          "F12"
+        ],
+        "color": "F12"
+      }
+    }
+  ]
+}

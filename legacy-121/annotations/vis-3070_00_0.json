@@ -1,0 +1,51 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3070_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "parallel_coordinates",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F2",
+        "color": "F5"
+      },
+      "repetition_position": [
+        "F1"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "月份"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "交易所排序"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "地区"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "日序"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "交易量"
+    }
+  ],
+  "image_observation": "跨月份的平行坐标轴被热图替换；C1 为 parallel_coordinates，C2 为月份轴上的重复 heatmap，保持月份与交易所位置共享。"
+}

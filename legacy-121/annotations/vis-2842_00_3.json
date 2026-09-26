@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2842_00_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F1",
+        "position.radius": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "bar_angular_extent"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "local_radial_slot"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "bar_color_class"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "time_sector"
+    }
+  ],
+  "image_observation": "扇区模板绕圆周按时间重复；内部角向条长和径向槽位保留。外部时间字段成为无方向名的一个定位维度，不与内部 theta 值混合。"
+}

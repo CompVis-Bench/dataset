@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2863_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3",
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "embedding_x"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "embedding_y"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "student_status"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "prediction_status"
+    }
+  ],
+  "image_observation": "四个标题分别组合 active/drop 与 predicted/missed。虽然四幅图纵向摆放，却由两个可读的分类字段决定，不把它们压成一个面板字段或四个维度。"
+}

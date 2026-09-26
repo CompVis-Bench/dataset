@@ -1,0 +1,40 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F9",
+        "position.y": "F4",
+        "color": "F5"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "multi_radar",
+      "encodings": {
+        "position.theta": "F10",
+        "position.radius": "F11"
+      },
+      "external_encodings": {
+        "position": [
+          "F8"
+        ]
+      }
+    }
+  ]
+}

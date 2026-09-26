@@ -1,0 +1,32 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F1",
+        "color": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "horizon_chart",
+      "encodings": {
+        "position.x": "F9",
+        "position.y": "F5",
+        "color": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F7",
+          "F8"
+        ]
+      }
+    }
+  ]
+}

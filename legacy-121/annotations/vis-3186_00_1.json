@@ -1,0 +1,46 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3186_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "parallel_coordinates",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F4"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "特征值"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "特征轴"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "数据子集"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "局部密度"
+    }
+  ],
+  "image_observation": "横向平行坐标的多条记录线与每根轴的局部分布分开；局部分布按特征轴重复。"
+}

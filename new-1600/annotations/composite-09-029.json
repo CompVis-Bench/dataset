@@ -1,0 +1,62 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "size": "F3",
+        "color": "F4"
+      },
+      "external_encodings": {
+        "position": [
+          "F5"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "single_radar",
+      "encodings": {
+        "position.theta": "F13",
+        "position.radius": "F7"
+      },
+      "external_encodings": {
+        "position": [
+          "F8"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "horizon_chart",
+      "encodings": {
+        "position.x": "F14",
+        "position.y": "F15",
+        "color": "F11"
+      },
+      "external_encodings": {
+        "position": [
+          "F12"
+        ]
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "link",
+      "encodings": {
+        "source": "F16",
+        "target": "F17",
+        "stroke.width": "F18"
+      },
+      "external_encodings": {
+        "position": []
+      },
+      "link_targets": [
+        "C1",
+        "C2"
+      ]
+    }
+  ]
+}

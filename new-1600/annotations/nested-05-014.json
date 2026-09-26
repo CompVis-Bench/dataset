@@ -1,0 +1,33 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "link",
+      "encodings": {
+        "source": "F4",
+        "target": "F5"
+      },
+      "external_encodings": {
+        "position": [
+          "F9"
+        ]
+      },
+      "link_targets": [
+        "C2"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "geo_area",
+      "encodings": {
+        "color": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F9",
+          "F3"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "grouped_bar",
+      "encodings": {
+        "position.x": "F2",
+        "position.y": "F3",
+        "position.x_offset": "F1",
+        "color": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F6"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F2",
+        "position.y": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F6"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "bar",
+      "encodings": {
+        "color": "F7",
+        "position.y": "F4",
+        "position.x": "F5"
+      },
+      "external_encodings": {
+        "position": [
+          "F6",
+          "F2",
+          "F3"
+        ]
+      }
+    }
+  ]
+}

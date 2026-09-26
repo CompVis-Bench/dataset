@@ -1,0 +1,47 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3299_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F1",
+        "color": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "link",
+      "encodings": {
+        "stroke.width": "F4"
+      },
+      "repetition_position": [],
+      "link_targets": [
+        "C1"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "状态占比"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "状态"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "实体节点"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "因果强度"
+    }
+  ],
+  "image_observation": "因果网络的节点以小饼表示状态组成，边的粗细变化可见；饼按实体节点身份定位。"
+}

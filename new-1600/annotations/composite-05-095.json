@@ -1,0 +1,48 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "calendar_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F9",
+        "position.y": "F10",
+        "size": "F5",
+        "color": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F7",
+        "color": "F8"
+      },
+      "external_encodings": {
+        "position": [
+          "F4",
+          "F9",
+          "F10"
+        ]
+      }
+    }
+  ]
+}

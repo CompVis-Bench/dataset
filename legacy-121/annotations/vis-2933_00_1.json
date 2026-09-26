@@ -1,0 +1,52 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2933_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F4",
+        "color": "F5"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "分箱位置"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "频数"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "层面板"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "变化量"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "变化方向"
+    }
+  ],
+  "image_observation": "conv2、ip1、ip2 三个层面板重复；每层上方分布柱与下方正负变化柱分为两个模板。"
+}

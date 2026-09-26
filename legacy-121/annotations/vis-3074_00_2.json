@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3074_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F1",
+        "color": "F2"
+      },
+      "repetition_position": [
+        "F3",
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "类别占比"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "类别"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "横向评价值"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "纵向评价值"
+    }
+  ],
+  "image_observation": "多个大小不同的双色饼位于二维评价空间；饼本身是模板，不再重复列出底层点图。"
+}

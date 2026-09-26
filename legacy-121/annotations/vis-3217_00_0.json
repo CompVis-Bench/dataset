@@ -1,0 +1,60 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3217_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F3",
+        "position.y": "F4"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "tick_plot",
+      "encodings": {
+        "position.x": "F5"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "权重"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "类别"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "评分"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "人数"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "平均评分"
+    }
+  ],
+  "image_observation": "四行左侧权重指示与右侧评分直方图、平均值刻度分别按类别重复。"
+}

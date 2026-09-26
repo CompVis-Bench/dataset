@@ -1,0 +1,51 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2854_00_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F4",
+        "color": "F5"
+      },
+      "repetition_position": [
+        "F1",
+        "F2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "embedding_x"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "embedding_y"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "center_color_value"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "ring_part_amount"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "ring_part_category"
+    }
+  ],
+  "image_observation": "中央点的红色梯度与周围环分块不同：颜色梯度归 point/color，donut 保留自己的 theta/color。环实例由两个散点坐标字段定位。"
+}

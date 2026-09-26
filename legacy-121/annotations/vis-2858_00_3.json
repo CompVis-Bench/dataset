@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2858_00_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "size": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "month"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "event_type"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "event_magnitude"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "comparison_panel"
+    }
+  ],
+  "image_observation": "截图实际显示上下两套重复的月份×事件坐标系（下图被裁切），修正旧 repetition=false；新增一个可见面板定位字段，内部仍为 x/y/size。"
+}

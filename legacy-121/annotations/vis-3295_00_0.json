@@ -1,0 +1,32 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3295_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "指标分箱"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "频数"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "指标"
+    }
+  ],
+  "image_observation": "Size、IOU、Confidence 三幅独立直方图；一个指标字段控制重复，固定面板色省略。"
+}

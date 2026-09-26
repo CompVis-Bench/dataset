@@ -1,0 +1,87 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3205_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F3",
+        "color": "F4"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C3",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F6"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C4",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F7"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C5",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F8"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "全片时间"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "一致性分数"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "模态"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "情绪"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "局部时间"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "音高"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "强度"
+    },
+    {
+      "field_id": "F8",
+      "image_role": "振幅"
+    }
+  ],
+  "image_observation": "上方是全片概览，下方为选段的音高、强度与振幅；全片与局部时间不直接合并。"
+}

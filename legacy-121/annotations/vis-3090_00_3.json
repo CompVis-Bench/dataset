@@ -1,0 +1,46 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3090_00_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "color": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "single_boxplot",
+      "encodings": {
+        "position.x": "F4"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "分值槽位"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "选择状态"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "指标"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "分值"
+    }
+  ],
+  "image_observation": "三个指标各有一行选择格与一个水平箱体，共同按指标重复。"
+}

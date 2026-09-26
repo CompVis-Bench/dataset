@@ -1,0 +1,48 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3294_02_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [
+        "F4"
+      ],
+      "link_targets": [
+        "C1"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "节点横向布局"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "节点纵向布局"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "缩放特征值"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "网络角色"
+    }
+  ],
+  "image_observation": "Target Network 和 Background Network 两套网络上下排，点与边共同继承网络角色。"
+}

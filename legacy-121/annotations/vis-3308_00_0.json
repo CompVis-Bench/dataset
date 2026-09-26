@@ -1,0 +1,78 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3308_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F5",
+        "color": "F1"
+      },
+      "repetition_position": [
+        "F3",
+        "F6",
+        "F7"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F8"
+      },
+      "repetition_position": [
+        "F3",
+        "F6"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "预测类别"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "类别数量"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "子组"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "属性值"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "数量"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "属性"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "实例角色"
+    },
+    {
+      "field_id": "F8",
+      "image_role": "不纯度"
+    }
+  ],
+  "image_observation": "左列为预测类别数，后续属性列有原实例/反事实镜像分布与绿色不纯度曲线。"
+}

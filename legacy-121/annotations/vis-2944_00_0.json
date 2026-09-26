@@ -1,0 +1,56 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2944_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F4",
+        "position.radius": "F5",
+        "color": "F6"
+      },
+      "repetition_position": [
+        "F1",
+        "F2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "横向投影位置"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "纵向投影位置"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "中心点色值"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "属性"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "属性值"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "差值"
+    }
+  ],
+  "image_observation": "散点位置上放射状花瓣图；中心点颜色与花瓣颜色分别是不同字段角色。"
+}

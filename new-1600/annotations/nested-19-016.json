@@ -1,0 +1,47 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F2",
+        "position.y": "F3",
+        "color": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F8"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_area",
+      "encodings": {
+        "position.x": "F2",
+        "position.y": "F4",
+        "color": "F9"
+      },
+      "external_encodings": {
+        "position": [
+          "F8"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F7",
+        "color": "F10"
+      },
+      "external_encodings": {
+        "position": [
+          "F8",
+          "F2",
+          "F3"
+        ]
+      }
+    }
+  ]
+}

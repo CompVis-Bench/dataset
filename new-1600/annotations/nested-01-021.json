@@ -1,0 +1,83 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "parallel_coordinates",
+      "encodings": {
+        "color": "F1",
+        "position.x": "F4",
+        "position.y": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "single_boxplot",
+      "encodings": {
+        "position.x": "F4"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "link",
+      "encodings": {
+        "source": "F6",
+        "target": "F7"
+      },
+      "external_encodings": {
+        "position": []
+      },
+      "link_targets": [
+        "C4",
+        "C6",
+        "C5"
+      ]
+    },
+    {
+      "chart_id": "C4",
+      "variation": "geo_area",
+      "encodings": {
+        "color": "F8"
+      },
+      "external_encodings": {
+        "position": [
+          "F5"
+        ]
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "geo_point",
+      "encodings": {
+        "position.x": "F9",
+        "position.y": "F10",
+        "color": "F12"
+      },
+      "external_encodings": {
+        "position": [
+          "F5"
+        ]
+      }
+    },
+    {
+      "chart_id": "C6",
+      "variation": "geo_line",
+      "encodings": {
+        "position.x": "F9",
+        "position.y": "F10"
+      },
+      "external_encodings": {
+        "position": [
+          "F5"
+        ]
+      }
+    }
+  ]
+}

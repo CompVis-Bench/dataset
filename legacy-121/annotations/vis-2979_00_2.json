@@ -1,0 +1,32 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2979_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_boxplot",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "激活分布"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "词语"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "维度面板"
+    }
+  ],
+  "image_observation": "左右两幅共用各自坐标的多箱线，词语为内部 y，一个维度面板字段控制左右重复。"
+}

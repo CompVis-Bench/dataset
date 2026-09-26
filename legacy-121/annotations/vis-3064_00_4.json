@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3064_00_4",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "列槽位"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "行槽位"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "覆盖值"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "方法"
+    }
+  ],
+  "image_observation": "Original 与 Our Sampling 两张独立网格图横排，一个方法字段控制重复。"
+}

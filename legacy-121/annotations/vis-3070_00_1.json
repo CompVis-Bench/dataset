@@ -1,0 +1,32 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3070_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "时间"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "交易量"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "交易所"
+    }
+  ],
+  "image_observation": "多个交易所的时间分布柱按行重复；面板固定色不放入普通 bar 内部。"
+}

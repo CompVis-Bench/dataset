@@ -1,0 +1,47 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "hexbin",
+      "encodings": {
+        "color": "F1",
+        "position.x": "F2",
+        "position.y": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F10",
+        "position.y": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F7",
+          "F8"
+        ]
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F11",
+        "position.y": "F13",
+        "size": "F9"
+      },
+      "external_encodings": {
+        "position": [
+          "F7",
+          "F14"
+        ]
+      }
+    }
+  ]
+}

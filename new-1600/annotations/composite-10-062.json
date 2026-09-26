@@ -1,0 +1,110 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F4",
+        "color": "F5"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F14",
+        "position.y": "F7",
+        "color": "F8"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F15",
+        "position.y": "F18"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C6",
+      "variation": "multi_boxplot",
+      "encodings": {
+        "position.x": "F16",
+        "position.y": "F9"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C7",
+      "variation": "multi_boxplot",
+      "encodings": {
+        "position.x": "F21",
+        "position.y": "F19"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C8",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F10",
+        "color": "F11"
+      },
+      "external_encodings": {
+        "position": [
+          "F17"
+        ]
+      }
+    },
+    {
+      "chart_id": "C9",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F12",
+        "color": "F23"
+      },
+      "external_encodings": {
+        "position": [
+          "F20"
+        ]
+      }
+    },
+    {
+      "chart_id": "C10",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F22",
+        "position.y": "F13"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

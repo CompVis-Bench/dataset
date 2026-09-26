@@ -1,0 +1,87 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "treemap",
+      "encodings": {
+        "size": "F4",
+        "color": "F1"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F6",
+        "color": "F13"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ],
+        "size": "F4"
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "grouped_bar",
+      "encodings": {
+        "color": "F14",
+        "position.y": "F7",
+        "position.x": "F2",
+        "position.x_offset": "F14"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ],
+        "size": "F4"
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "geo_area",
+      "encodings": {
+        "color": "F10"
+      },
+      "external_encodings": {
+        "position": [
+          "F8",
+          "F9"
+        ]
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "geo_point",
+      "encodings": {
+        "position.x": "F11",
+        "position.y": "F12",
+        "color": "F16"
+      },
+      "external_encodings": {
+        "position": [
+          "F8",
+          "F9"
+        ]
+      }
+    },
+    {
+      "chart_id": "C6",
+      "variation": "geo_line",
+      "encodings": {
+        "position.x": "F11",
+        "position.y": "F12"
+      },
+      "external_encodings": {
+        "position": [
+          "F8",
+          "F9"
+        ]
+      }
+    }
+  ]
+}

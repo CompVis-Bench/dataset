@@ -1,0 +1,73 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2822_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [],
+      "link_targets": [
+        "C3"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F3",
+        "color": "F4"
+      },
+      "repetition_position": [
+        "F1",
+        "F5"
+      ]
+    },
+    {
+      "chart_id": "C4",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F5",
+        "color": "F6"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "column_bin"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "histogram_count"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "slice_amount"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "slice_category"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "week_row"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "背景紫色强度（图像无法确认具体统计度量）"
+    }
+  ],
+  "image_observation": "pie 的 theta/color 留在内部；列槽位与日期行提供两个定位维度。顶部 histogram 复用列槽位。橙色连线的宽度无明确数据变化证据，删除 width。 下层还有紫色背景热图，复用列 F1 与日期行 F5；强度字段单独记录。"
+}

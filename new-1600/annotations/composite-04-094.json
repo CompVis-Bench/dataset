@@ -1,0 +1,20 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "stacked_bar",
+      "encodings": {
+        "color": "F3",
+        "position.y": "F1",
+        "position.x": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F4",
+          "F5",
+          "F6"
+        ]
+      }
+    }
+  ]
+}

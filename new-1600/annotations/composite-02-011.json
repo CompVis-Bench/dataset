@@ -1,0 +1,28 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F2",
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F4"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

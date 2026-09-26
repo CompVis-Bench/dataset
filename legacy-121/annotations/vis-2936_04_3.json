@@ -1,0 +1,67 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2936_04_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F5"
+      },
+      "repetition_position": [
+        "F1",
+        "F2"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F5",
+        "size": "F6"
+      },
+      "repetition_position": [
+        "F1",
+        "F2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "日期"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "模式行"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "异常色值"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "图内时序"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "图内数值"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "点大小"
+    }
+  ],
+  "image_observation": "热图是按日期变化的一维背景，仅 position.x 与 color；模式行仅用于定位内部小折线和点模板，不能加到热图 y。"
+}

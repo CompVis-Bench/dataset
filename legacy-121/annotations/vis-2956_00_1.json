@@ -1,0 +1,52 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2956_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F4",
+        "position.y2": "F5"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "年份"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "概率"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "主题"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "下界"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "上界"
+    }
+  ],
+  "image_observation": "三个主题小图纵排；实线和虚线概率趋势与绿色区间带共享年份轴。"
+}

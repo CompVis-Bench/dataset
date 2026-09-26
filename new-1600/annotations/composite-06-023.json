@@ -1,0 +1,68 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "geo_point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F12"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_bar",
+      "encodings": {
+        "color": "F13",
+        "position.y": "F4",
+        "position.x": "F5"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F6",
+        "position.y": "F7",
+        "color": "F14"
+      },
+      "external_encodings": {
+        "position": [
+          "F17"
+        ]
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F8",
+        "position.y": "F9",
+        "color": "F15"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F10",
+        "position.y": "F11",
+        "color": "F16"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

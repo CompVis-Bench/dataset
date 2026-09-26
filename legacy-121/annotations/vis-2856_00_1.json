@@ -1,0 +1,40 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2856_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "hexbin",
+      "encodings": {
+        "color": "F1",
+        "position.x": "F4",
+        "position.y": "F5"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [],
+      "link_targets": [
+        "C1"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "node_color_value"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "hexbin_layout_x"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "hexbin_layout_y"
+    }
+  ],
+  "image_observation": "hexbin 的布局 x/y 属于内部通道；节点身份不构成额外重复维度。"
+}

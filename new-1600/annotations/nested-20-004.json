@@ -1,0 +1,62 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "treemap",
+      "encodings": {
+        "size": "F4",
+        "color": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F7"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_area",
+      "encodings": {
+        "position.x": "F2",
+        "position.y": "F5",
+        "color": "F10"
+      },
+      "external_encodings": {
+        "position": [
+          "F7",
+          "F3"
+        ],
+        "size": "F4"
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F2",
+        "position.y": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F7",
+          "F3"
+        ],
+        "size": "F4"
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "stacked_bar",
+      "encodings": {
+        "color": "F9",
+        "position.y": "F11",
+        "position.x": "F8"
+      },
+      "external_encodings": {
+        "position": [
+          "F7"
+        ]
+      }
+    }
+  ]
+}

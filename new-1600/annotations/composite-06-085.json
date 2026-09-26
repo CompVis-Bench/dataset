@@ -1,0 +1,33 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "dotplot",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3",
+          "F5"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_area",
+      "encodings": {
+        "position.x": "F7",
+        "position.y": "F4",
+        "color": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F8",
+          "F9"
+        ]
+      }
+    }
+  ]
+}

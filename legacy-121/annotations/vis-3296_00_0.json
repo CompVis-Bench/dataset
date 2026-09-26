@@ -1,0 +1,62 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3296_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [
+        "F3"
+      ],
+      "link_targets": [
+        "C1"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F4",
+        "color": "F5"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "网络内部横向布局"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "网络内部纵向布局"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "网络"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "风险占比"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "风险等级"
+    }
+  ],
+  "image_observation": "十二个网络小面板每个叠一个风险饼，网络编号是一个 wrap 字段，不能因排成三行四列造两维。"
+}

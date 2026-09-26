@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3322_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "violin",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3",
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "速度"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "局部密度"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "分析方案"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "观测角色"
+    }
+  ],
+  "image_observation": "每个 Universe 内有粉青两条镜像密度，是小提琴而不是旧来源的 boxplot；方案与观测/预测角色形成两层定位。"
+}

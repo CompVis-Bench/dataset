@@ -1,0 +1,19 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "tree",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3",
+        "size": "F4"
+      },
+      "external_encodings": {
+        "position": [
+          "F5"
+        ]
+      }
+    }
+  ]
+}

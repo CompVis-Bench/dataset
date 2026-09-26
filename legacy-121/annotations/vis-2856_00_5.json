@@ -1,0 +1,48 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2856_00_5",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "hexbin",
+      "encodings": {
+        "color": "F1",
+        "position.x": "F4",
+        "position.y": "F5"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [
+        "F2"
+      ],
+      "link_targets": [
+        "C1"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "node_color_value"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "comparison_panel"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "hexbin_layout_x"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "hexbin_layout_y"
+    }
+  ],
+  "image_observation": "hexbin 的 x/y 属于内部定位，四幅网络仅由一个 comparison_panel 字段重复；link 同样继承此字段。"
+}

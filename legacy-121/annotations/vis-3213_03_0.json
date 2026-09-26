@@ -1,0 +1,27 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3213_03_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "circlepacking",
+      "encodings": {
+        "size": "F1"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "簇规模"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "数据中心"
+    }
+  ],
+  "image_observation": "多个圆形数据中心容器内放置小圆簇，容器按一个数据中心字段排成两行。"
+}

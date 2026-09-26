@@ -1,0 +1,87 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "bar",
+      "encodings": {
+        "position.y": "F4",
+        "position.x": "F5"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F16",
+        "position.y": "F6",
+        "color": "F7"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.y": "F8",
+        "color": "F15"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F14"
+      },
+      "external_encodings": {
+        "position": [
+          "F10"
+        ]
+      }
+    },
+    {
+      "chart_id": "C6",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F11",
+        "position.y": "F12"
+      },
+      "external_encodings": {
+        "position": [
+          "F10"
+        ]
+      }
+    },
+    {
+      "chart_id": "C7",
+      "variation": "tick_plot",
+      "encodings": {
+        "position.x": "F13"
+      },
+      "external_encodings": {
+        "position": [
+          "F17"
+        ]
+      }
+    }
+  ]
+}

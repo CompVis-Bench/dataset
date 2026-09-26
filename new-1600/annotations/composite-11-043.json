@@ -1,0 +1,31 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "geo_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "grouped_bar",
+      "encodings": {
+        "color": "F8",
+        "position.y": "F4",
+        "position.x": "F5",
+        "position.x_offset": "F8"
+      },
+      "external_encodings": {
+        "position": [
+          "F7"
+        ]
+      }
+    }
+  ]
+}

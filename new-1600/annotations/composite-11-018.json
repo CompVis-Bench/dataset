@@ -1,0 +1,27 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "stacked_bar",
+      "encodings": {
+        "color": "F3",
+        "position.y": "F1",
+        "position.x": "F2"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "parallel_coordinates",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F4"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

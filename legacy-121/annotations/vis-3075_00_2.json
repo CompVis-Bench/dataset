@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3075_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "geo_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "经度"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "纬度"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "关系等级"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "中心国家面板"
+    }
+  ],
+  "image_observation": "左右两个世界地图并排，独立中心国家条件形成一个外部字段。"
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3199_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "multi_radar",
+      "encodings": {
+        "position.theta": "F4",
+        "position.radius": "F5"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "horizon_chart",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F6",
+        "color": "F7"
+      },
+      "repetition_position": [
+        "F3",
+        "F8"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "时间"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "累计收益"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "投资簇"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "风险因子"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "风险暴露"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "行业份额"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "数值带"
+    },
+    {
+      "field_id": "F8",
+      "image_role": "行业"
+    }
+  ],
+  "image_observation": "三列投资簇内分别是多线收益、叠加风险雷达和行业时间带；雷达内多条轮廓在同一坐标，不能再按投资组合 facet。"
+}

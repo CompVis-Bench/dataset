@@ -1,0 +1,29 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "stacked_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "tree",
+      "encodings": {
+        "position.x": "F7",
+        "position.y": "F5"
+      },
+      "external_encodings": {
+        "position": [
+          "F6"
+        ]
+      }
+    }
+  ]
+}

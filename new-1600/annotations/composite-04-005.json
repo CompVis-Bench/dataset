@@ -1,0 +1,16 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "euler_venn",
+      "encodings": {
+        "color": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F2"
+        ]
+      }
+    }
+  ]
+}

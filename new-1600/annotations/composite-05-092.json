@@ -1,0 +1,96 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_bar",
+      "encodings": {
+        "color": "F6",
+        "position.y": "F4",
+        "position.x": "F5"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F14",
+        "position.y": "F7"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F14",
+        "position.y": "F8"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F15"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C6",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F16",
+        "position.y": "F10"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C7",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F17",
+        "position.y": "F11"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C8",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F12",
+        "color": "F13"
+      },
+      "external_encodings": {
+        "position": [
+          "F15",
+          "F9"
+        ]
+      }
+    }
+  ]
+}

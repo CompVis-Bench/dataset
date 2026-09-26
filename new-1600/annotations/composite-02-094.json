@@ -1,0 +1,70 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "single_radar",
+      "encodings": {
+        "position.theta": "F1",
+        "position.radius": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F4",
+        "color": "F5"
+      },
+      "external_encodings": {
+        "position": [
+          "F6"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F7",
+        "color": "F10"
+      },
+      "external_encodings": {
+        "position": [
+          "F11"
+        ]
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F9",
+        "position.y": "F8"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "link",
+      "encodings": {
+        "source": "F12",
+        "target": "F13",
+        "stroke.width": "F14"
+      },
+      "external_encodings": {
+        "position": []
+      },
+      "link_targets": [
+        "C1",
+        "C2"
+      ]
+    }
+  ]
+}

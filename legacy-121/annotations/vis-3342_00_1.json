@@ -1,0 +1,109 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3342_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C3",
+      "variation": "multi_boxplot",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F4"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C4",
+      "variation": "multi_boxplot",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C5",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F5",
+        "color": "F6"
+      },
+      "repetition_position": [
+        "F1"
+      ]
+    },
+    {
+      "chart_id": "C6",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F7",
+        "color": "F6"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    },
+    {
+      "chart_id": "C7",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F8"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "源神经元"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "目标神经元"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "相似度"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "权重值"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "源权重占比"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "权重类别"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "目标权重占比"
+    },
+    {
+      "field_id": "F8",
+      "image_role": "频数"
+    }
+  ],
+  "image_observation": "中央矩阵和存在性红点、下边/右边箱线、两组神经元小饼以及右下权重直方图分别标注。"
+}

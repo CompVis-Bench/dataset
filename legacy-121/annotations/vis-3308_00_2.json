@@ -1,0 +1,41 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3308_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "parallel_coordinates",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F3"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "属性值"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "属性轴"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "频数"
+    }
+  ],
+  "image_observation": "横向平行轴间有实例路径，每根轴带灰色特征分布，分布模板按属性轴重复。"
+}

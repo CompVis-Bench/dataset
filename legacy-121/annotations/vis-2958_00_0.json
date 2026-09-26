@@ -1,0 +1,35 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2958_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "节点数量"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "准确率"
+    }
+  ],
+  "image_observation": "黑点分布与多条前沿折线共享节点数和准确率；同一坐标内的线不是 facet。"
+}

@@ -1,0 +1,72 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "tree",
+      "encodings": {
+        "position.x": "F3",
+        "position.y": "F4"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "grouped_bar",
+      "encodings": {
+        "position.x": "F2",
+        "position.y": "F5",
+        "position.x_offset": "F1",
+        "color": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F3",
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "treemap",
+      "encodings": {
+        "size": "F7",
+        "color": "F12"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F9",
+        "color": "F13"
+      },
+      "external_encodings": {
+        "position": [
+          "F6"
+        ],
+        "size": "F7"
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "grouped_bar",
+      "encodings": {
+        "position.x": "F11",
+        "position.y": "F10",
+        "position.x_offset": "F14",
+        "color": "F14"
+      },
+      "external_encodings": {
+        "position": [
+          "F6"
+        ],
+        "size": "F7"
+      }
+    }
+  ]
+}

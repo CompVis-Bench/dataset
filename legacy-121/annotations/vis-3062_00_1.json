@@ -1,0 +1,57 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3062_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "grouped_bar",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F6",
+        "position.y_offset": "F5",
+        "color": "F5"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "分布位置"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "分布密度"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "类别面板"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "数量"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "比较组"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "特征"
+    }
+  ],
+  "image_observation": "每个 C0/C1/C2 面板顶部为分布面积，下方为按词语分组的水平 grouped_bar；灰红比较组是组内 offset/color，词语是原生 y，仅类别面板外部重复。"
+}

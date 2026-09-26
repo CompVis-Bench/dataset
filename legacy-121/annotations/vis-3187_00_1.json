@@ -1,0 +1,52 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3187_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "contour",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C3",
+      "variation": "link",
+      "encodings": {
+        "stroke.color": "F3"
+      },
+      "repetition_position": [],
+      "link_targets": [
+        "C2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "嵌入横向位置"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "嵌入纵向位置"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "句子"
+    }
+  ],
+  "image_observation": "蓝橙词状态点、轮廓和顺序连接共用二维嵌入与句子颜色，词文本作节点标签。"
+}

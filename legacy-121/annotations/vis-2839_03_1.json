@@ -1,0 +1,41 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2839_03_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [],
+      "link_targets": [
+        "C2"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "color": "F1",
+        "size": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "node_category"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "node_magnitude"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "labeled_node_identity"
+    }
+  ],
+  "image_observation": "有标签的网络节点以节点身份作为一个定位依据，节点颜色/大小为原生样式；图中没有可辨认的数据 x/y 轴，不推断力导向坐标字段。"
+}

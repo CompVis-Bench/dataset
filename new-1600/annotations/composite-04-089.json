@@ -1,0 +1,19 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "violin",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3",
+          "F4",
+          "F5"
+        ]
+      }
+    }
+  ]
+}

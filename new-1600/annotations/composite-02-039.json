@@ -1,0 +1,29 @@
+{
+  "charts": [
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.y": "F4",
+        "color": "F5"
+      },
+      "external_encodings": {
+        "position": [
+          "F6",
+          "F7"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "bar",
+      "encodings": {
+        "position.y": "F9",
+        "position.x": "F8"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "connected_scatterplot",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F10",
+        "position.y": "F4",
+        "color": "F14"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F13",
+        "color": "F15"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F11",
+        "position.y": "F7"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "unit_bar",
+      "encodings": {
+        "color": "F9",
+        "position.y": "F12",
+        "position.x": "F8"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

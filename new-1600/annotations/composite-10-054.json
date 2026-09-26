@@ -1,0 +1,58 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F2"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "bar",
+      "encodings": {
+        "position.y": "F3",
+        "position.x": "F4"
+      },
+      "external_encodings": {
+        "position": [
+          "F2"
+        ]
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "calendar_heatmap",
+      "encodings": {
+        "position.x": "F11",
+        "position.y": "F6",
+        "color": "F7"
+      },
+      "external_encodings": {
+        "position": [
+          "F8"
+        ]
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F12",
+        "position.y": "F14",
+        "size": "F9",
+        "color": "F10"
+      },
+      "external_encodings": {
+        "position": [
+          "F8"
+        ]
+      }
+    }
+  ]
+}

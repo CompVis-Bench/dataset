@@ -1,0 +1,52 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3060_00_4",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "link",
+      "encodings": {
+        "stroke.width": "F5"
+      },
+      "repetition_position": [],
+      "link_targets": [
+        "C1"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "特征值"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "频数"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "阶段列"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "特征"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "路径数量"
+    }
+  ],
+  "image_observation": "三列决策阶段内重复分布小图，灰色流带连接各节点；小图外部由阶段及特征控制。"
+}

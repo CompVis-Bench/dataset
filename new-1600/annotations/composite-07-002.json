@@ -1,0 +1,19 @@
+{
+  "charts": [
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "color": "F1",
+        "size": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3",
+          "F4",
+          "F5"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2827_05_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "unit_bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "binned_value"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "unit_count"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "feature_panel"
+    }
+  ],
+  "image_observation": "每个小图下有不同的指标标签；十二个指标小图按网格排版，没有独立行标签。以一个 feature_panel 字段表示 wrap，不能因布局为三行四列就造两个 facet 字段。内部保留分箱位置与单位数量。"
+}

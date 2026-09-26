@@ -1,0 +1,39 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3330_03_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F3"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "比赛阶段"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "防守覆盖区域"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "传球模式"
+    }
+  ],
+  "image_observation": "上方每阶段防守柱，下方模式行上的蓝点共享阶段；模式是内部 y，不因每行重复点而增加模板重复。"
+}

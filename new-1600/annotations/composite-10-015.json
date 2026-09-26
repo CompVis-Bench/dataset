@@ -1,0 +1,50 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "geo_point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "geo_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "bar",
+      "encodings": {
+        "position.y": "F8",
+        "position.x": "F5"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F9",
+        "position.y": "F6",
+        "color": "F7"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3306_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "geo_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "stroke.width": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "radial_area",
+      "encodings": {
+        "position.theta": "F4",
+        "position.radius": "F5",
+        "color": "F6"
+      },
+      "repetition_position": [
+        "F7",
+        "F8"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "single_radar",
+      "encodings": {
+        "position.theta": "F9",
+        "position.radius": "F10"
+      },
+      "repetition_position": [
+        "F7",
+        "F8"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "经度"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "纬度"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "路线数"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "地理方向"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "客流"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "进出方向"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "区域经度"
+    },
+    {
+      "field_id": "F8",
+      "image_role": "区域纬度"
+    },
+    {
+      "field_id": "F9",
+      "image_role": "评价指标"
+    },
+    {
+      "field_id": "F10",
+      "image_role": "指标值"
+    }
+  ],
+  "image_observation": "地理网络每个区域位置上叠外圈客流径向面积与中央雷达，两个 glyph 共享区域经纬度定位。 底图仅为上下文，不再单独计为 chart。"
+}

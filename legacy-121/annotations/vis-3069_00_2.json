@@ -1,0 +1,65 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3069_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.y": "F1"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F3",
+        "color": "F4"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F5",
+        "color": "F6"
+      },
+      "repetition_position": [
+        "F2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "输出值"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "规则"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "保真度"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "保真度等级"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "样本数量"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "数据类别"
+    }
+  ],
+  "image_observation": "每条规则有左侧输出指示、中间百分比弧环和右侧组成条，三个模板按规则重复。"
+}

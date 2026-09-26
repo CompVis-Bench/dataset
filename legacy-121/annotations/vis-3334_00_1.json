@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3334_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "训练步骤"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "准确率"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "聚合方式"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "准确率口径"
+    }
+  ],
+  "image_observation": "左右两个准确率面板，每个含原始及平滑多色曲线；一个评价口径字段控制重复。"
+}

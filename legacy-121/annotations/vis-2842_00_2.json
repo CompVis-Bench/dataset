@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2842_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "calendar_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "weekday_slot"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "week_slot"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "day_value"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "month_panel"
+    }
+  ],
+  "image_observation": "May/Jun/Jul 是 month_panel 的三个取值，仅一个重复维度；weekday 与 week 槽位是 calendar_heatmap 内部定位，颜色是每日值。"
+}

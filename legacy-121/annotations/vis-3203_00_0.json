@@ -1,0 +1,33 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3203_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_boxplot",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F1"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "账户类别"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "特征分布"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "年份"
+    }
+  ],
+  "image_observation": "2013、2014、2015 三套坐标内各有三类箱体，年份为一个重复字段；离群点属于箱线模板。"
+}

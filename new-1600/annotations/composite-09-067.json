@@ -1,0 +1,61 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_boxplot",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "radial_area",
+      "encodings": {
+        "position.theta": "F13",
+        "position.radius": "F5"
+      },
+      "external_encodings": {
+        "position": [
+          "F7",
+          "F8"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F14",
+        "position.y": "F15",
+        "color": "F11"
+      },
+      "external_encodings": {
+        "position": [
+          "F12"
+        ]
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "link",
+      "encodings": {
+        "source": "F16",
+        "target": "F17",
+        "stroke.width": "F18"
+      },
+      "external_encodings": {
+        "position": []
+      },
+      "link_targets": [
+        "C1",
+        "C3"
+      ]
+    }
+  ]
+}

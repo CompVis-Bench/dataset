@@ -1,0 +1,36 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "tree",
+      "encodings": {
+        "position.x": "F3",
+        "position.y": "F4"
+      },
+      "external_encodings": {
+        "position": [
+          "F7",
+          "F6"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "grouped_bar",
+      "encodings": {
+        "color": "F1",
+        "position.y": "F5",
+        "position.x": "F2",
+        "position.x_offset": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F7",
+          "F6",
+          "F3",
+          "F4"
+        ]
+      }
+    }
+  ]
+}

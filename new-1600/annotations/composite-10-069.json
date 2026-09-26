@@ -1,0 +1,101 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "geo_point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F5",
+        "color": "F19"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F6",
+        "position.y": "F7",
+        "color": "F20"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F8",
+        "position.y": "F9",
+        "color": "F21"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F10",
+        "position.y": "F11",
+        "color": "F22"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C6",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F16",
+        "position.y": "F13",
+        "color": "F14"
+      },
+      "external_encodings": {
+        "position": [
+          "F15"
+        ]
+      }
+    },
+    {
+      "chart_id": "C7",
+      "variation": "parallel_coordinates",
+      "encodings": {
+        "position.x": "F17",
+        "position.y": "F23"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C8",
+      "variation": "single_boxplot",
+      "encodings": {
+        "position.y": "F18"
+      },
+      "external_encodings": {
+        "position": [
+          "F24"
+        ]
+      }
+    }
+  ]
+}

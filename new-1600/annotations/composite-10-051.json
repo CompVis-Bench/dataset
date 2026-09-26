@@ -1,0 +1,107 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "parallel_coordinates",
+      "encodings": {
+        "position.x": "F2",
+        "position.y": "F1"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "bar",
+      "encodings": {
+        "position.y": "F16",
+        "position.x": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F15"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F17",
+        "position.y": "F5",
+        "color": "F6"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F7",
+        "position.y": "F8",
+        "color": "F9"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F18",
+        "position.y": "F10"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C6",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F18",
+        "position.y": "F11"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C7",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F19",
+        "position.y": "F12"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C8",
+      "variation": "bar",
+      "encodings": {
+        "position.y": "F20",
+        "position.x": "F13"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C9",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F21",
+        "position.y": "F14"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

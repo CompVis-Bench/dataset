@@ -1,0 +1,61 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "geo_area",
+      "encodings": {
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F13"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "link",
+      "encodings": {
+        "source": "F9",
+        "target": "F10"
+      },
+      "external_encodings": {
+        "position": [
+          "F13"
+        ]
+      },
+      "link_targets": [
+        "C3"
+      ]
+    },
+    {
+      "chart_id": "C3",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F12",
+        "color": "F16"
+      },
+      "external_encodings": {
+        "position": [
+          "F13",
+          "F6",
+          "F7"
+        ]
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "stacked_bar",
+      "encodings": {
+        "color": "F15",
+        "position.y": "F17",
+        "position.x": "F14"
+      },
+      "external_encodings": {
+        "position": [
+          "F13"
+        ]
+      }
+    }
+  ]
+}

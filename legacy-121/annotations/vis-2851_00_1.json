@@ -1,0 +1,58 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2851_00_1",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F1",
+        "color": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F3",
+        "position.y": "F2",
+        "color": "F2",
+        "size": "F4"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C3",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "role_amount"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "role_category"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "scatter_value"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "point_magnitude"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "bar_value"
+    }
+  ],
+  "image_observation": "左 donut、中 scatter、右 bar 是三种系统；角色行是 scatter/bar 的内部 y，并非额外 facet。"
+}

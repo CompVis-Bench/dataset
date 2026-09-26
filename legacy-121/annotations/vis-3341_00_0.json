@@ -1,0 +1,59 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3341_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F4",
+        "color": "F5"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C3",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [],
+      "link_targets": [
+        "C1",
+        "C2"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "日期"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "统计数量"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "统计指标"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "提交序位"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "选择状态"
+    }
+  ],
+  "image_observation": "上面两条日期分布面积分别为提交/改动量指标，下方为提交序位条，斜细线连接日期与序位。"
+}

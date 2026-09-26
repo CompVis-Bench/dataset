@@ -1,0 +1,32 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3186_00_4",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1"
+      },
+      "repetition_position": [
+        "F2",
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "特征值"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "细胞"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "特征"
+    }
+  ],
+  "image_observation": "数据表每格用水平数据条表示数值，细胞行与特征列是两个独立外部因素。"
+}

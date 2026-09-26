@@ -1,0 +1,32 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3065_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "训练轮次"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "指标值"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "指标面板"
+    }
+  ],
+  "image_observation": "average_reward、nr_games、average_q 三幅独立单线图，一个指标字段控制重复；选中点不另立散点系统。"
+}

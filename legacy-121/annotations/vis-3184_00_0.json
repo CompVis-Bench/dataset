@@ -1,0 +1,56 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3184_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F6"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F4",
+        "size": "F5"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "用户"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "会话数"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "簇"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "任务"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "用户数"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "柱的灰度分数"
+    }
+  ],
+  "image_observation": "每个 G 簇行左边有用户会话柱、右边有 T0–T6 大小点列，两个模板共享簇定位。"
+}

@@ -1,0 +1,28 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "geo_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "stroke.width": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "geo_point",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F5",
+        "color": "F6"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

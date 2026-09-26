@@ -1,0 +1,49 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3061_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F3",
+        "position.y": "F4",
+        "color": "F5"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "横向嵌入位置"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "纵向嵌入位置"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "簇类别"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "特征"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "特征值"
+    }
+  ],
+  "image_observation": "上方簇散点与下方特征矩阵分为两个系统；点颜色对应矩阵的簇列，复用簇字段。"
+}

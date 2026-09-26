@@ -1,0 +1,42 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3062_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4",
+        "F5"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "横轴模型得分"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "纵轴模型得分"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "目标类别状态"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "目标类别"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "模型对"
+    }
+  ],
+  "image_observation": "六个散点面板由两个目标类别列和三个模型比较行组成；两种外部因素独立保留。"
+}

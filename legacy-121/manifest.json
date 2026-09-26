@@ -1,0 +1,856 @@
+{
+  "dataset_id": "compvis_aihubmix_121_final",
+  "format_version": "chart_encoding_variation_only_v3",
+  "annotation_version": "final_user_feedback_v3",
+  "status": "final",
+  "sample_count": 121,
+  "samples": [
+    {
+      "sample_id": "vis-2933_00_1",
+      "image": "images/vis-2933_00_1.png",
+      "image_sha256": "e2deb90bebcd096ad056aaafcc8d098a9973cf77456080c177368bce7b18637a",
+      "annotation": "annotations/vis-2933_00_1.json",
+      "annotation_sha256": "53bb6f9d752aed067cb33c45cda0b2e4704f8a27be3e57f893c10538e95fa85c"
+    },
+    {
+      "sample_id": "vis-2933_00_3",
+      "image": "images/vis-2933_00_3.png",
+      "image_sha256": "947e8060fe4d75278bd67ea3294d7255ac4e64660520e5520e1192bdf90c79b6",
+      "annotation": "annotations/vis-2933_00_3.json",
+      "annotation_sha256": "8a0267b95cccd7cd7aa9781bda845fb3a716cb762233d978d64385be41a381f4"
+    },
+    {
+      "sample_id": "vis-2934_00_3",
+      "image": "images/vis-2934_00_3.png",
+      "image_sha256": "1a41d063c7417160e8190d8db4f1fa58f5162381c6dc9f7280316af81bb7d760",
+      "annotation": "annotations/vis-2934_00_3.json",
+      "annotation_sha256": "18b37755d1f25e02b21db916ff923d5c53ccf4592a98d3ecbf787ff63d163ed7"
+    },
+    {
+      "sample_id": "vis-2936_04_3",
+      "image": "images/vis-2936_04_3.png",
+      "image_sha256": "0e66acc21a22a8bb9903d7cccb22b0306c24550da6cf11a1beacebbd3f7e996a",
+      "annotation": "annotations/vis-2936_04_3.json",
+      "annotation_sha256": "be4e8b95f39ac234c37894fa83ddcbc5175748e0b4e2b0c4817ed6f91729ef0f"
+    },
+    {
+      "sample_id": "vis-2936_04_4",
+      "image": "images/vis-2936_04_4.png",
+      "image_sha256": "8946cfc240ddbb321d0a3ccf629608d625af732131e99120418f19c4bade1fcb",
+      "annotation": "annotations/vis-2936_04_4.json",
+      "annotation_sha256": "1e86d07385b7bc27c66513c34c3f954e36b49804bd0023d8f150d17b00161715"
+    },
+    {
+      "sample_id": "vis-2936_04_5",
+      "image": "images/vis-2936_04_5.png",
+      "image_sha256": "7f5eabcc8d69c706559f2f7c8c3ec972eea1814bf1a3c6c6347c2802aa67c6bc",
+      "annotation": "annotations/vis-2936_04_5.json",
+      "annotation_sha256": "b2feeea5aba533f11d25698eaa25b13e6e1033cd6e8219707db70b2f2f5373e6"
+    },
+    {
+      "sample_id": "vis-2939_00_0",
+      "image": "images/vis-2939_00_0.png",
+      "image_sha256": "e17eb7cdb295a96c3bb7b241091550dccef4d13ad2434ea7950e33c5af0b5759",
+      "annotation": "annotations/vis-2939_00_0.json",
+      "annotation_sha256": "cba79ea7e3c64a4d4a5f38c9df1a8dd2f6adc8ebb45a781311b70bfaca47e3df"
+    },
+    {
+      "sample_id": "vis-2943_01_3",
+      "image": "images/vis-2943_01_3.png",
+      "image_sha256": "004687d53e3b9fbfee41089b592ee10ac1a5f2d161c07c51077289470cd52c15",
+      "annotation": "annotations/vis-2943_01_3.json",
+      "annotation_sha256": "ac8f209930a99b4ba735f68726150436bafdadaa9f15ff2475ad44af3401b3b7"
+    },
+    {
+      "sample_id": "vis-2944_00_0",
+      "image": "images/vis-2944_00_0.png",
+      "image_sha256": "dda832d560164d674289074e4e01d321e563fd73c845757db77b900a787cb1b0",
+      "annotation": "annotations/vis-2944_00_0.json",
+      "annotation_sha256": "361265eafbeadca1cc43bf19ad6e71e683c3967e7e8d9c1cfa22fb44d48b8bf0"
+    },
+    {
+      "sample_id": "vis-2944_00_2",
+      "image": "images/vis-2944_00_2.png",
+      "image_sha256": "02c42d0b2e2365a3b9e3504c175092d0118aadcb374807d3a1661c7c1a595a5c",
+      "annotation": "annotations/vis-2944_00_2.json",
+      "annotation_sha256": "41a587395358edfaf926f5535c2e72c600e5cba6886c5110a82b733b192948c4"
+    },
+    {
+      "sample_id": "vis-2955_00_0",
+      "image": "images/vis-2955_00_0.png",
+      "image_sha256": "11d99ce510712467e62ae9cb35705516a8bbe7da71c1de5d4149186c73994654",
+      "annotation": "annotations/vis-2955_00_0.json",
+      "annotation_sha256": "47e34d3eedabf5da56248acac8a740fe6fe8e2638a177ca8614841fd73605766"
+    },
+    {
+      "sample_id": "vis-2955_00_2",
+      "image": "images/vis-2955_00_2.png",
+      "image_sha256": "580c5b73c43a786c936fb0f69eaa9928bbc29bcdfe365cd77807ec96b9bb6ae2",
+      "annotation": "annotations/vis-2955_00_2.json",
+      "annotation_sha256": "deefa43ca5bdd69dc0e2dd283da99edafd94a652a2e67e86e9cc6600f065d8cd"
+    },
+    {
+      "sample_id": "vis-2956_00_1",
+      "image": "images/vis-2956_00_1.png",
+      "image_sha256": "e4936267d90a18572e7e814d53c682bc43af386a2b27cc3e801426272f31f17a",
+      "annotation": "annotations/vis-2956_00_1.json",
+      "annotation_sha256": "e7fad7c914bf3c10536d2291825b968fde6319a78766cf8b0d75148e501a5571"
+    },
+    {
+      "sample_id": "vis-2956_00_2",
+      "image": "images/vis-2956_00_2.png",
+      "image_sha256": "e106f00479bae9fcd2665e34e0c61aee4fa43e7c6e8f8a9bdc3e40d6bb4da0a9",
+      "annotation": "annotations/vis-2956_00_2.json",
+      "annotation_sha256": "7e855816f725bcdc47485e64223227a629b63e5a4d50c7c9b74278d7457be30f"
+    },
+    {
+      "sample_id": "vis-2958_00_0",
+      "image": "images/vis-2958_00_0.png",
+      "image_sha256": "48e6d72df8e26fea0cc16ebf50752100c37adfd79a6746c798ff0ca54cf39b0c",
+      "annotation": "annotations/vis-2958_00_0.json",
+      "annotation_sha256": "5d349ad4cec7f8d6d67c0bb3006713a2e517d826ca86b576eb4a89c55f9798c6"
+    },
+    {
+      "sample_id": "vis-2964_00_1",
+      "image": "images/vis-2964_00_1.png",
+      "image_sha256": "bd0e44aec551068e0761a03252ff56525b7651cc0c1bb7332f711a3df893042a",
+      "annotation": "annotations/vis-2964_00_1.json",
+      "annotation_sha256": "b3b3f60f3b09a18609ce19d2fd45719bef2b6865d9c8950117f7b7bffccc8d19"
+    },
+    {
+      "sample_id": "vis-2965_03_0",
+      "image": "images/vis-2965_03_0.png",
+      "image_sha256": "8208eb3cd7c14e559a82024e89b2d12e58a873cabb771258c4c9645a62e44aba",
+      "annotation": "annotations/vis-2965_03_0.json",
+      "annotation_sha256": "d26435f95635e4a3d754125f990f5a1d15a606f5bf15302e09fa328d5e50514e"
+    },
+    {
+      "sample_id": "vis-2965_03_2",
+      "image": "images/vis-2965_03_2.png",
+      "image_sha256": "02e7d60e4d43c54d4ce738b7c48039199d58913801d63dfc3a145ee2de8f05d1",
+      "annotation": "annotations/vis-2965_03_2.json",
+      "annotation_sha256": "ffb80b1b678520880aa02ce0036e87340af1dd990a09ac01d444b2adc4bbb78c"
+    },
+    {
+      "sample_id": "vis-2966_00_1",
+      "image": "images/vis-2966_00_1.png",
+      "image_sha256": "bc0fc40f32f8f5855a6afb0e00a0c056afb6edd14dacbaae7e53c5352671b19a",
+      "annotation": "annotations/vis-2966_00_1.json",
+      "annotation_sha256": "6fa1b4b8d786f3a9e990f80fa1aa95274c235820e6d69385321411a4392336d5"
+    },
+    {
+      "sample_id": "vis-2972_05_0",
+      "image": "images/vis-2972_05_0.png",
+      "image_sha256": "108e87b8c300e0c245830d7653a049d674b60e311b58ddb34f77540c7f07feb4",
+      "annotation": "annotations/vis-2972_05_0.json",
+      "annotation_sha256": "8f06fd8d49da9afa6e9e58fbf9396b31ac650575b64b58b2395bc9e4eb1c9d5e"
+    },
+    {
+      "sample_id": "vis-2975_00_1",
+      "image": "images/vis-2975_00_1.png",
+      "image_sha256": "88b0c629e37c839371108abd382cca3611229ad18a93b4c758973dd59118dccb",
+      "annotation": "annotations/vis-2975_00_1.json",
+      "annotation_sha256": "403cb8120aed998685138b850b29a8e532bbdcd99946f7954b1a2efb125f823a"
+    },
+    {
+      "sample_id": "vis-2979_00_0",
+      "image": "images/vis-2979_00_0.png",
+      "image_sha256": "535a1dcf82d4c6e73e1f4ad3a234d1c6541ef8e01f116544eb9f8db51f30afae",
+      "annotation": "annotations/vis-2979_00_0.json",
+      "annotation_sha256": "25ef88df32c67ee48643034ac5f623e5d0b3da8657efded53f889a358d9aba98"
+    },
+    {
+      "sample_id": "vis-2979_00_1",
+      "image": "images/vis-2979_00_1.png",
+      "image_sha256": "9e652aead21138c21d89fdf712f0928695d769f369172f1e31793bbb303310b7",
+      "annotation": "annotations/vis-2979_00_1.json",
+      "annotation_sha256": "446a38e4a5d778694cb897e390585f285eba774998ea895d128ba6ce74454ac4"
+    },
+    {
+      "sample_id": "vis-2979_00_2",
+      "image": "images/vis-2979_00_2.png",
+      "image_sha256": "b0bde936d5c16e7e34d1e65a72bd8182de43fab477b7bc42537d732c2ddc7bfa",
+      "annotation": "annotations/vis-2979_00_2.json",
+      "annotation_sha256": "9f30d1fd37a66ce7f68fc20df59d61c47ec0dc0fac95aba13d7dfbf3deb3e96c"
+    },
+    {
+      "sample_id": "vis-2980_00_0",
+      "image": "images/vis-2980_00_0.png",
+      "image_sha256": "a618b42852560fc42493bfbbea3f84a8e9bfb7501224d361ce1e901d3eaacb62",
+      "annotation": "annotations/vis-2980_00_0.json",
+      "annotation_sha256": "e6f5b30dc755521984e025d77690fa35f7ca96c37fd64859359c4fdf617fd947"
+    },
+    {
+      "sample_id": "vis-3060_00_4",
+      "image": "images/vis-3060_00_4.png",
+      "image_sha256": "51cdb95f4b80831b468ba9bd8665f6aacc41a412b42cfecc1589837a9ed51b25",
+      "annotation": "annotations/vis-3060_00_4.json",
+      "annotation_sha256": "e858880b41e84ca699fa3aa9a8ad093fea14d0be3f6ecfa13a17ca60f7b469f9"
+    },
+    {
+      "sample_id": "vis-3061_00_2",
+      "image": "images/vis-3061_00_2.png",
+      "image_sha256": "6d9c1e5400d93d1aa95848eeb24d48f5020fbf3d23de83940aaeb3b6a5a7e9ae",
+      "annotation": "annotations/vis-3061_00_2.json",
+      "annotation_sha256": "94b797615ef469dca964cf9e143dfdf2d4eb6182405db7ff96fcef0ca7aa532d"
+    },
+    {
+      "sample_id": "vis-3062_00_0",
+      "image": "images/vis-3062_00_0.png",
+      "image_sha256": "130a124cb42d612dfe9c2d505768450ebb2cca6873e586738f9f4685f30a44a0",
+      "annotation": "annotations/vis-3062_00_0.json",
+      "annotation_sha256": "bd8b11e46f01806e2a6cc9ffdcceb3a5f910575c4c06c0ca736c6eb23dfac15c"
+    },
+    {
+      "sample_id": "vis-3062_00_1",
+      "image": "images/vis-3062_00_1.png",
+      "image_sha256": "5dd8e2fcc2cc5019963ad8e6d7a6116d0f39d5f180c627be0a1e1c1178068eab",
+      "annotation": "annotations/vis-3062_00_1.json",
+      "annotation_sha256": "ea6644afefa50b2c5df18284628446b0b07eb640be4e5da84bf7e5705d287413"
+    },
+    {
+      "sample_id": "vis-3064_00_0",
+      "image": "images/vis-3064_00_0.png",
+      "image_sha256": "5dd27d4600d417c20f73cf1c58b778bdddc9708a1918b252b29a31ba42dd746a",
+      "annotation": "annotations/vis-3064_00_0.json",
+      "annotation_sha256": "232488ffa5ef694416be5ac804185be96f4e0237242887f369767ff3e0ac29b8"
+    },
+    {
+      "sample_id": "vis-3064_00_4",
+      "image": "images/vis-3064_00_4.png",
+      "image_sha256": "673f075dab758a35799ea1bb2c5b9286bcdd3524bb48c5fb83c6b889385167c6",
+      "annotation": "annotations/vis-3064_00_4.json",
+      "annotation_sha256": "8964c46e914c44044bc665e654420ad6ac413a005ad0fd332b9a9740160f1657"
+    },
+    {
+      "sample_id": "vis-3065_00_0",
+      "image": "images/vis-3065_00_0.png",
+      "image_sha256": "e5b999e5d12ef8e4cebdd4a72f9eb3940b8808c88ffebc19f284aff3b71713b5",
+      "annotation": "annotations/vis-3065_00_0.json",
+      "annotation_sha256": "bc02219a4a0a0c4a8b34276050b42fd0a0e65511b54d810f3a6d4974beb3e319"
+    },
+    {
+      "sample_id": "vis-3065_00_2",
+      "image": "images/vis-3065_00_2.png",
+      "image_sha256": "0cf66d32fe03cdec28efd562c75f56009169eecb33c394ea972d29edf50b193b",
+      "annotation": "annotations/vis-3065_00_2.json",
+      "annotation_sha256": "7fa71cb5e0bc41e17d5cbcd302b97bf4e6a3e43ae97c3294bb3a04347871b414"
+    },
+    {
+      "sample_id": "vis-3067_04_0",
+      "image": "images/vis-3067_04_0.png",
+      "image_sha256": "b24659bafed586f53b603644e89a2fd4de2cef2eddd883187de2d7d8a269734b",
+      "annotation": "annotations/vis-3067_04_0.json",
+      "annotation_sha256": "848f8c79ec2d044f35e131a1f1dfc08ee8992c70fd780c18f4a920729186c33f"
+    },
+    {
+      "sample_id": "vis-3069_00_2",
+      "image": "images/vis-3069_00_2.png",
+      "image_sha256": "11041496fef4c9d9bbc1619f41cc5c051601aa99b3dca9b6793498b96a14b3a5",
+      "annotation": "annotations/vis-3069_00_2.json",
+      "annotation_sha256": "ec35da9a28ea6960169aaeb58b25a916fbf462ce3cb37293ff2265d4ca366d80"
+    },
+    {
+      "sample_id": "vis-3070_00_0",
+      "image": "images/vis-3070_00_0.png",
+      "image_sha256": "0676aab6f83cceb35c5ce26fbe76a90ec658256f197d342a1fb713da5ff339b4",
+      "annotation": "annotations/vis-3070_00_0.json",
+      "annotation_sha256": "77af9766a4b591caa91d4a93dfc9836fa3325b20c4117518f6e6f3252f5f6d91"
+    },
+    {
+      "sample_id": "vis-3070_00_1",
+      "image": "images/vis-3070_00_1.png",
+      "image_sha256": "5fed20e815a87fcdefcb9a207cf70db99e9bd15f1c5511d7acdd2c8a74607c5b",
+      "annotation": "annotations/vis-3070_00_1.json",
+      "annotation_sha256": "5d79f75809406993a11dd9dbfb4be0baf60f7735f9f508d712c5301541b1290a"
+    },
+    {
+      "sample_id": "vis-3071_03_1",
+      "image": "images/vis-3071_03_1.png",
+      "image_sha256": "43695bba92aab68e6cfa9d3642ac5856ecce44bf984274967cb74868deeb6043",
+      "annotation": "annotations/vis-3071_03_1.json",
+      "annotation_sha256": "db7221ba5aa3887a250c0bf20e7f9bc3dbc4af5f310cd457f0811189b05b686d"
+    },
+    {
+      "sample_id": "vis-3074_00_2",
+      "image": "images/vis-3074_00_2.png",
+      "image_sha256": "55446fc1913d40fd180eb35e358472418e6a640789b5c12cd606db4e893b3129",
+      "annotation": "annotations/vis-3074_00_2.json",
+      "annotation_sha256": "3c0b8545f3306b5bb57a8cb0fe7d8ae6424220339e12c2c555641cbaa7804255"
+    },
+    {
+      "sample_id": "vis-3075_00_2",
+      "image": "images/vis-3075_00_2.png",
+      "image_sha256": "9c279a23da39d2336ea799b237bc0c69e481de5cc2b6a75d22ccae073f23f65c",
+      "annotation": "annotations/vis-3075_00_2.json",
+      "annotation_sha256": "f9341cefba31bbc3e685c6a4a12200f9a5e5839bdf430c4bcd1122e993ab52d9"
+    },
+    {
+      "sample_id": "vis-3081_00_0",
+      "image": "images/vis-3081_00_0.png",
+      "image_sha256": "9fd7bd1397c4cd092a59bc9c9def6543b940e05d0474afb2f2b36b1289e4a3bb",
+      "annotation": "annotations/vis-3081_00_0.json",
+      "annotation_sha256": "a6e633a252e02a14576e26080575fe3cf818468ffecdf427767134179b6084fd"
+    },
+    {
+      "sample_id": "vis-3081_00_1",
+      "image": "images/vis-3081_00_1.png",
+      "image_sha256": "19a8d815a246b277a5a2fd8734e416269c6e548dbc317ff6c745826537277f56",
+      "annotation": "annotations/vis-3081_00_1.json",
+      "annotation_sha256": "a3504f35481f1944597439415134b2f71b0d40e1fc8c92bb9c930a44966755dd"
+    },
+    {
+      "sample_id": "vis-3090_00_3",
+      "image": "images/vis-3090_00_3.png",
+      "image_sha256": "3841f2ffaa8245c1801d31ee47bded71fa8bd2dd625c9915c53c3f7dd5f96c4a",
+      "annotation": "annotations/vis-3090_00_3.json",
+      "annotation_sha256": "ba174672773309148ab2d6a95c2b64213dc2c96d943aadd62e6401c829360baa"
+    },
+    {
+      "sample_id": "vis-3091_00_0",
+      "image": "images/vis-3091_00_0.png",
+      "image_sha256": "79629e103525dd6385e4ca752443a14f8632701a0e4413c4381258f69baa288e",
+      "annotation": "annotations/vis-3091_00_0.json",
+      "annotation_sha256": "3e05cac55c421256e04b2d5fcffc70d5b1b574a86375688314987fc227f2ad6b"
+    },
+    {
+      "sample_id": "vis-3184_00_0",
+      "image": "images/vis-3184_00_0.png",
+      "image_sha256": "55330098393e3530d8e1ab6a86a8b49e1ab34ac06749280afa2c39f9ccacd956",
+      "annotation": "annotations/vis-3184_00_0.json",
+      "annotation_sha256": "d9b6b3520905f0b919a82a71dd47e4ac5d89dfd732e75bf3e21b10ac69921b10"
+    },
+    {
+      "sample_id": "vis-3186_00_1",
+      "image": "images/vis-3186_00_1.png",
+      "image_sha256": "f29a4c2ebd8bd86146bfac6fa4dd6c799aeb0b8827a7db8aefd92750ebbdab84",
+      "annotation": "annotations/vis-3186_00_1.json",
+      "annotation_sha256": "374d585ac062c3c3d64c99c1b1cb21f8261b30cfaf5cac2c7aa883b9e77eaeb6"
+    },
+    {
+      "sample_id": "vis-3186_00_3",
+      "image": "images/vis-3186_00_3.png",
+      "image_sha256": "31a2559af0987e05311e1e47e634bbf04a4452a9c1e2786b9692ce9364cb5efa",
+      "annotation": "annotations/vis-3186_00_3.json",
+      "annotation_sha256": "9e3a48c20d642f3f7d5e9bf3dfd08a4f4a72e4c6b413ea1ea1d75332dbcefc4b"
+    },
+    {
+      "sample_id": "vis-3186_00_4",
+      "image": "images/vis-3186_00_4.png",
+      "image_sha256": "640aa3559b4b6cc01685a8de456dc74e7b03f547f5f5387858749fd03b66f448",
+      "annotation": "annotations/vis-3186_00_4.json",
+      "annotation_sha256": "9cfceda7b8ae1a1eeeeee9e039e67d69842035750cf77602e0b7d7ab8ac2c0c2"
+    },
+    {
+      "sample_id": "vis-3187_00_1",
+      "image": "images/vis-3187_00_1.png",
+      "image_sha256": "933ad6f47128b9f28dc93f115d9585925d1fa664fd06659efb061c6783ebe541",
+      "annotation": "annotations/vis-3187_00_1.json",
+      "annotation_sha256": "d438ce0f483794cdb5923ceb52fa4898e756d5372b3c756d754b7255cdf436dc"
+    },
+    {
+      "sample_id": "vis-3197_00_1",
+      "image": "images/vis-3197_00_1.png",
+      "image_sha256": "e0884de11357087a5abcb5f4e69ab66508ccd7c61a8e7b6e6e1c9a177bbe1a76",
+      "annotation": "annotations/vis-3197_00_1.json",
+      "annotation_sha256": "64feab8b7bfc23f53428dc94ec936b4e0cab3cda7b353d15bae759ca110c55b2"
+    },
+    {
+      "sample_id": "vis-3199_00_1",
+      "image": "images/vis-3199_00_1.png",
+      "image_sha256": "7b1a681269f00454274137b1768c5f512baaa04ee0c7e1ecf2e7e31262bd5aa3",
+      "annotation": "annotations/vis-3199_00_1.json",
+      "annotation_sha256": "13f5f004ad7f205afc8ed85e00515417c80e5a94ac1c28928b93250cc53daaa1"
+    },
+    {
+      "sample_id": "vis-3199_00_2",
+      "image": "images/vis-3199_00_2.png",
+      "image_sha256": "c61c237f89f0d9b9f2ded3bc39ad95f4017e9d6e2b510d40b28969192f75b5dd",
+      "annotation": "annotations/vis-3199_00_2.json",
+      "annotation_sha256": "632348e58b8cfd38e20d0608f5a083c396585eb51fe5efb9aaeb8281a495eb35"
+    },
+    {
+      "sample_id": "vis-3199_00_3",
+      "image": "images/vis-3199_00_3.png",
+      "image_sha256": "115c1a9c30d6021d82d2695a0135eea6a3f45a86f664bb80466f7cfcd383d08e",
+      "annotation": "annotations/vis-3199_00_3.json",
+      "annotation_sha256": "6329ae012b58f41cb0c80ee283a246b9967675af534eb1013e3af636112ca600"
+    },
+    {
+      "sample_id": "vis-3203_00_0",
+      "image": "images/vis-3203_00_0.png",
+      "image_sha256": "cd2a221e8e0074d9f50109659f894738fcc150bcd25c21830537c8ecd5d287ea",
+      "annotation": "annotations/vis-3203_00_0.json",
+      "annotation_sha256": "a5c352716cde6831e5b86c8e7bc1745817ad3b2f3d6d69cdbf076c0f666e218a"
+    },
+    {
+      "sample_id": "vis-3205_00_0",
+      "image": "images/vis-3205_00_0.png",
+      "image_sha256": "ecd0662c734be77162bbb5194ca0d065f5568f13876ec54bac232c942564085e",
+      "annotation": "annotations/vis-3205_00_0.json",
+      "annotation_sha256": "082bc2f929ea621a1be52a49d07560e3498b8156c3c70bb822e932f47b9bf36e"
+    },
+    {
+      "sample_id": "vis-3205_00_2",
+      "image": "images/vis-3205_00_2.png",
+      "image_sha256": "705352b73936f4b93e0e20896ea811241622f0b1273f2b88d3da4e02a3d24dda",
+      "annotation": "annotations/vis-3205_00_2.json",
+      "annotation_sha256": "88e94eee5d7132c5036bffa5da70da1a1e228dcc091090023da49cf1a50a11c5"
+    },
+    {
+      "sample_id": "vis-3205_00_3",
+      "image": "images/vis-3205_00_3.png",
+      "image_sha256": "78a12b7e02551c27ac5fe6cf71f3c856177dd7206e5b6d12a9f713a2284b2750",
+      "annotation": "annotations/vis-3205_00_3.json",
+      "annotation_sha256": "ff8fc3a76857a991489fe9d4d5b92c969308dbedd8e1b70cfdcd0fd66058ffc0"
+    },
+    {
+      "sample_id": "vis-3211_02_2",
+      "image": "images/vis-3211_02_2.png",
+      "image_sha256": "81a23b0ccf8eb0a7a2e16e0493a6730607ac35bacea96c97b4db87fe30a344fa",
+      "annotation": "annotations/vis-3211_02_2.json",
+      "annotation_sha256": "5a020e28b2471d5bb10480fc91c9e067bd4335776d576d889ef62e74d4a791e9"
+    },
+    {
+      "sample_id": "vis-3213_03_0",
+      "image": "images/vis-3213_03_0.png",
+      "image_sha256": "c967759c750b027e3968fc0df039cf01b03a213dce8d6e40f09b842bf2b0b8b2",
+      "annotation": "annotations/vis-3213_03_0.json",
+      "annotation_sha256": "3520134d686d77940050aeea55b33af3a9a5a7a1c0d30fc9a500f4d18035ce4e"
+    },
+    {
+      "sample_id": "vis-3217_00_0",
+      "image": "images/vis-3217_00_0.png",
+      "image_sha256": "6b9e177baec3ad795c421ef605e439bca134017f377d2ed5c1f854a8f50d9418",
+      "annotation": "annotations/vis-3217_00_0.json",
+      "annotation_sha256": "ce79006e139f4a015cf12b0ff36b99158651be7379f473c1480e611831ee6678"
+    },
+    {
+      "sample_id": "vis-3294_02_3",
+      "image": "images/vis-3294_02_3.png",
+      "image_sha256": "a7e80208b06c87409cded48bf9a9c4e7c36b28655cedcf2f2ef53c89d864b45f",
+      "annotation": "annotations/vis-3294_02_3.json",
+      "annotation_sha256": "c2cbc5fb305597f5a4756cc27ae6464f440959267f64a2fe88344aa2b7658245"
+    },
+    {
+      "sample_id": "vis-3295_00_0",
+      "image": "images/vis-3295_00_0.png",
+      "image_sha256": "11c38211c2812f7b4b92d479280275302c62886c22fffc9acb72ce4c68fcbd1e",
+      "annotation": "annotations/vis-3295_00_0.json",
+      "annotation_sha256": "4877f74652f0a485364f3f3f1188bb51c0a479df478a631c6f3d1595090e1eaf"
+    },
+    {
+      "sample_id": "vis-3296_00_0",
+      "image": "images/vis-3296_00_0.png",
+      "image_sha256": "b7bea90766f035661af2c446aa263678f524de84399c7d2283974c9754568d0a",
+      "annotation": "annotations/vis-3296_00_0.json",
+      "annotation_sha256": "0835254c3736aa6d195ffbab3b2e1b2faa94f6e7a962fc1919f398dbfcf72191"
+    },
+    {
+      "sample_id": "vis-3299_00_0",
+      "image": "images/vis-3299_00_0.png",
+      "image_sha256": "18a55afd4630cd46705b233fe51df1de6fa0d24c02abd917dfa1ecf2f02ea4a8",
+      "annotation": "annotations/vis-3299_00_0.json",
+      "annotation_sha256": "e377ed95e04b2f314f2412406016faa104e6cf9a232198f4bfa5b2d16c7c1216"
+    },
+    {
+      "sample_id": "vis-3300_00_0",
+      "image": "images/vis-3300_00_0.png",
+      "image_sha256": "f98c0e91cfdb1d23bd0be8a0004dabd322f51ca252fdff44e20d1a1f0024028b",
+      "annotation": "annotations/vis-3300_00_0.json",
+      "annotation_sha256": "2d3bb6a65393dfdecd173d121f9be5c111f4d8c211f88918b7c792f24360af5d"
+    },
+    {
+      "sample_id": "vis-3306_00_0",
+      "image": "images/vis-3306_00_0.png",
+      "image_sha256": "6d7552119c94ce6dcbfcf3c7424c7adb78c823b3559a381d62b5758300cc80ea",
+      "annotation": "annotations/vis-3306_00_0.json",
+      "annotation_sha256": "d5fa011b70d3cc2494bd6c4f64465c935fe5e62be566bd39e4ccd773b62958b0"
+    },
+    {
+      "sample_id": "vis-3306_00_2",
+      "image": "images/vis-3306_00_2.png",
+      "image_sha256": "93acedc11489d277284932b8f5fc50fb1279d232a753d91e485252829aa4133c",
+      "annotation": "annotations/vis-3306_00_2.json",
+      "annotation_sha256": "624a37c61a8d3c285aa83f3cad86cfe648afef98750bffea52d6af546dc9fbec"
+    },
+    {
+      "sample_id": "vis-3307_00_2",
+      "image": "images/vis-3307_00_2.png",
+      "image_sha256": "3373791362a86427213e9e86050ab49f4653dc1bf6b336b415183bb142f0e16d",
+      "annotation": "annotations/vis-3307_00_2.json",
+      "annotation_sha256": "ec73b76471cc9d349f6e615fe9428af173099059cf057a505c38235b0eb61ebe"
+    },
+    {
+      "sample_id": "vis-3308_00_0",
+      "image": "images/vis-3308_00_0.png",
+      "image_sha256": "63f24203fad02a103b7ae1e5ced14c48daeae4898b7b2a0317bb61737a6319e4",
+      "annotation": "annotations/vis-3308_00_0.json",
+      "annotation_sha256": "955506be5e73c5407e54c449b41b8856d442d0e8a7f569e8fdaca71cc14d3caa"
+    },
+    {
+      "sample_id": "vis-3308_00_2",
+      "image": "images/vis-3308_00_2.png",
+      "image_sha256": "937103bdeb292bd22ae3eca345d8f019e78761e64852b6dc4a71683c69d713e0",
+      "annotation": "annotations/vis-3308_00_2.json",
+      "annotation_sha256": "a5e6c187563592f92db40e591d4b0bd96fdbbb0cfcbd8d3b800be0a7c2866a36"
+    },
+    {
+      "sample_id": "vis-3309_00_2",
+      "image": "images/vis-3309_00_2.png",
+      "image_sha256": "c4d5902863104cbc23ed4aabb2ecba914b6e6ff22c112573d63661cf54d3178f",
+      "annotation": "annotations/vis-3309_00_2.json",
+      "annotation_sha256": "5857bfed42f4a508cea6fd87d3d51ae10e36002073e236b8a4fcd20940880d79"
+    },
+    {
+      "sample_id": "vis-3311_00_1",
+      "image": "images/vis-3311_00_1.png",
+      "image_sha256": "01ff9a014d3b91dc9b1bea9c3a51dbd9668374ab49d39ba4aad38998d282c932",
+      "annotation": "annotations/vis-3311_00_1.json",
+      "annotation_sha256": "6e876c17e40f8eefc39b3cf54a54cbb5986f4f39087d0c7891c42eba5ab4c40b"
+    },
+    {
+      "sample_id": "vis-3315_00_0",
+      "image": "images/vis-3315_00_0.png",
+      "image_sha256": "ee38524d5cbdccddb5c5707a9f236bca2fd1b678edc83af290b007ea2aecfd59",
+      "annotation": "annotations/vis-3315_00_0.json",
+      "annotation_sha256": "5060361ed18d0e9530fcb4fad50b5d9adc7cc24037ed6e1c8c1e5b0754194f55"
+    },
+    {
+      "sample_id": "vis-3315_00_1",
+      "image": "images/vis-3315_00_1.png",
+      "image_sha256": "4ee9c66b38030b4d6ca22a0a1ad4ed7a37d54db315b14bbaa52a6100d3c32cf5",
+      "annotation": "annotations/vis-3315_00_1.json",
+      "annotation_sha256": "aa7068cc9452e5aeb1b448147236014f0bb444cfe8398a846c4cdfa9188f4d29"
+    },
+    {
+      "sample_id": "vis-3315_00_3",
+      "image": "images/vis-3315_00_3.png",
+      "image_sha256": "bce7c9144076796c6206d35160889b4c6e2ce5c06117d94408d65cd8f2380ce5",
+      "annotation": "annotations/vis-3315_00_3.json",
+      "annotation_sha256": "c696a97c35d98cddfd5b2484c4feeda16027f9db129468fe403927086b50a6c4"
+    },
+    {
+      "sample_id": "vis-3317_00_2",
+      "image": "images/vis-3317_00_2.png",
+      "image_sha256": "fe69bb6e192068460d115c6926a9b725fd8cdada869d792f3fa917eb78af6d51",
+      "annotation": "annotations/vis-3317_00_2.json",
+      "annotation_sha256": "e6b83f3458d8238f3096ebd06684b7ad8c06314a6de0b1c7c7fbd00a13975728"
+    },
+    {
+      "sample_id": "vis-3317_00_4",
+      "image": "images/vis-3317_00_4.png",
+      "image_sha256": "53041cef7d20030d213ed703442885667f12da7cb5fda892b8f902520dc39377",
+      "annotation": "annotations/vis-3317_00_4.json",
+      "annotation_sha256": "d21cf7d3d5b3b0bb4e0dbffbbdc9b9c08dcada3a960549b959770e596362c7a1"
+    },
+    {
+      "sample_id": "vis-3322_00_0",
+      "image": "images/vis-3322_00_0.png",
+      "image_sha256": "56a6b1118bdca1aa7160fe669c79fffabd587c6a1e34c68c65eb6aa9753d42be",
+      "annotation": "annotations/vis-3322_00_0.json",
+      "annotation_sha256": "fd2bc601a0bd21a9f281622dc91eea52260ae6a968442c48317d954d417be873"
+    },
+    {
+      "sample_id": "vis-3322_00_1",
+      "image": "images/vis-3322_00_1.png",
+      "image_sha256": "96a41cf8434f75a898551d27c606892253f1aba49d0508bcc41602349d329aa9",
+      "annotation": "annotations/vis-3322_00_1.json",
+      "annotation_sha256": "5d0ba8d43bc8feb0e05ee36bad497f999187b54110f2d28fa76e9e8e5e0c1527"
+    },
+    {
+      "sample_id": "vis-3326_01_0",
+      "image": "images/vis-3326_01_0.png",
+      "image_sha256": "d2e023b4e9755770eb2a79371cd6c685ae8a4be3aca268049f6da81cb3831f31",
+      "annotation": "annotations/vis-3326_01_0.json",
+      "annotation_sha256": "a3507da3666a65044f625f3423de5f93af8a26d1b514b2fcdd8b5983ac8a0bef"
+    },
+    {
+      "sample_id": "vis-3326_01_1",
+      "image": "images/vis-3326_01_1.png",
+      "image_sha256": "cf3ec868b0eb840493402b365da2c86af444cd7efbd693252cb6a7dbc2ad6774",
+      "annotation": "annotations/vis-3326_01_1.json",
+      "annotation_sha256": "35dfbeb948337d056cc8a3bc0c5032e200643c53462117af76fe9884260fb8d8"
+    },
+    {
+      "sample_id": "vis-3330_03_1",
+      "image": "images/vis-3330_03_1.png",
+      "image_sha256": "d3754e90b6a0dd88625c95d04a64bd070910bf83c25bbf4510ae4395d6551323",
+      "annotation": "annotations/vis-3330_03_1.json",
+      "annotation_sha256": "cd2eaf8c67c92e82b295ec6ebf02c158ca4ea3935a1487738fc9da272672918a"
+    },
+    {
+      "sample_id": "vis-3330_03_3",
+      "image": "images/vis-3330_03_3.png",
+      "image_sha256": "580d83f39633410354060fa1b5a9dbbe9d9cd5660d8719e38bbd2ccc575c8e89",
+      "annotation": "annotations/vis-3330_03_3.json",
+      "annotation_sha256": "712360d5251917205c2b3e2917737ef4fd137cd097996fd0747b538b1d919466"
+    },
+    {
+      "sample_id": "vis-3332_00_4",
+      "image": "images/vis-3332_00_4.png",
+      "image_sha256": "016da469117700eba8727b64641558a836ea4add138041a49a06f804d669ab41",
+      "annotation": "annotations/vis-3332_00_4.json",
+      "annotation_sha256": "465c11a10ec3c9842aee0575ceafd98a392d31391c0854f6b5b8378ccf9a6cd8"
+    },
+    {
+      "sample_id": "vis-3334_00_1",
+      "image": "images/vis-3334_00_1.png",
+      "image_sha256": "60a461eb721382f0af7040d0eeb7e2042e9597a8f1e30fc5e327d4151cc3450b",
+      "annotation": "annotations/vis-3334_00_1.json",
+      "annotation_sha256": "39a50f62e5df219ef2844af2d29bf63c4573094689c19ddba81575ed3a241b62"
+    },
+    {
+      "sample_id": "vis-3338_00_2",
+      "image": "images/vis-3338_00_2.png",
+      "image_sha256": "8b767380a559ab9a6549279c927b5bee3d0186e19849f6b0477984a143767c1d",
+      "annotation": "annotations/vis-3338_00_2.json",
+      "annotation_sha256": "91eb9ac3c439263ad216130149a7399655af037cd44e4cb19ae08c703032b379"
+    },
+    {
+      "sample_id": "vis-3341_00_0",
+      "image": "images/vis-3341_00_0.png",
+      "image_sha256": "c2644a8767304a808a7e45d5b27becb9c5a1b61d79427d75fd2a1944f7f2abe8",
+      "annotation": "annotations/vis-3341_00_0.json",
+      "annotation_sha256": "0d2cd641ed401ef47d923e74e2f35bc113677ad5197b9561210cde098928c56b"
+    },
+    {
+      "sample_id": "vis-3341_00_3",
+      "image": "images/vis-3341_00_3.png",
+      "image_sha256": "178bb47f21e1f895a6e76fbffc228225f101e1eb964049372ab53c92745cac02",
+      "annotation": "annotations/vis-3341_00_3.json",
+      "annotation_sha256": "3e3d814ea5a41b2796d3a0fc171ab0891d3e82c3ede9475b3ba61151187f163f"
+    },
+    {
+      "sample_id": "vis-3342_00_1",
+      "image": "images/vis-3342_00_1.png",
+      "image_sha256": "b1fcb3826c06a1d712d9a494e5c847e9a11cdaa41821bc6ed84c1ba43c34d340",
+      "annotation": "annotations/vis-3342_00_1.json",
+      "annotation_sha256": "a3867a9d4027bc74c36b6ebec11587f9da72b6de27357a82c1af882e411f9c13"
+    },
+    {
+      "sample_id": "vis-3342_00_2",
+      "image": "images/vis-3342_00_2.png",
+      "image_sha256": "b55e946b47b46b742a33877fe9093963f5801fe90df79e9e1c45ab9db2a14a88",
+      "annotation": "annotations/vis-3342_00_2.json",
+      "annotation_sha256": "8f479c85e6603543326745a73de1b404bcbabb53c978fced1620e3e88769647e"
+    },
+    {
+      "sample_id": "vis-3353_00_0",
+      "image": "images/vis-3353_00_0.png",
+      "image_sha256": "75b0f8fb7beb62790f6ac99c6c6d4cedb8646a588b66dc8a576d523d184383fd",
+      "annotation": "annotations/vis-3353_00_0.json",
+      "annotation_sha256": "28197b886f2bc29b88b82cfb7a8aea0b1beb1d1607fd8e92821a9a9da0b1e34e"
+    },
+    {
+      "sample_id": "vis-2821_00_4",
+      "image": "images/vis-2821_00_4.png",
+      "image_sha256": "9dd044c10e2764f03d43d800597280bd07909315e816d6d1636a0e7c88029603",
+      "annotation": "annotations/vis-2821_00_4.json",
+      "annotation_sha256": "ba04ca3160204ea59749fd573fc61a37100540bead7679f22c89aa69aa753c95"
+    },
+    {
+      "sample_id": "vis-2822_00_0",
+      "image": "images/vis-2822_00_0.png",
+      "image_sha256": "d99c9e155ba0e1317132a1380115e4c121a9e2b571e186c28e502dd41e97637f",
+      "annotation": "annotations/vis-2822_00_0.json",
+      "annotation_sha256": "932fa88b7a00cfbef7015b0782d620f96f2bf95162851619a68ded2ac2ffac70"
+    },
+    {
+      "sample_id": "vis-2822_00_1",
+      "image": "images/vis-2822_00_1.png",
+      "image_sha256": "4a05f9c301f02f4adf1af26e5821957b25b463608ac08fb662c02a2c85e07893",
+      "annotation": "annotations/vis-2822_00_1.json",
+      "annotation_sha256": "c105727526e2eca07d1497abeedc1e4f02f211fdb9869c42a8af63509f42cc1c"
+    },
+    {
+      "sample_id": "vis-2824_00_0",
+      "image": "images/vis-2824_00_0.png",
+      "image_sha256": "df02d0b7b81e47960ddcd79344cfaa4be1c0e4361ce734a7dac4dec77d5cedcd",
+      "annotation": "annotations/vis-2824_00_0.json",
+      "annotation_sha256": "425a6d979ff897346788211d63cf31a04351d811362d6918cec810eb29ab1935"
+    },
+    {
+      "sample_id": "vis-2827_05_2",
+      "image": "images/vis-2827_05_2.png",
+      "image_sha256": "6ccc94315d8d54ec450c37d0ce30b6336c8d03eb2d039ce35ec02ab45cddd325",
+      "annotation": "annotations/vis-2827_05_2.json",
+      "annotation_sha256": "52f707aecf4779c23d035efe96dafcb6f36b8ed962526075b8192fd1689b78ab"
+    },
+    {
+      "sample_id": "vis-2828_00_2",
+      "image": "images/vis-2828_00_2.png",
+      "image_sha256": "dc3960eb4580f0c8ff225562cde77212c85db5bb00d176f6a8d7e6bbeec42d7c",
+      "annotation": "annotations/vis-2828_00_2.json",
+      "annotation_sha256": "e649dafef58bf5ef3ac5ec89cb6bf3edacdd717acc5f493fc21fccabe1c35173"
+    },
+    {
+      "sample_id": "vis-2832_00_0",
+      "image": "images/vis-2832_00_0.png",
+      "image_sha256": "dea280df2d08f3837625296d43a5e4a021eaedd2a368c6133fada51e3e4c85d7",
+      "annotation": "annotations/vis-2832_00_0.json",
+      "annotation_sha256": "2e58c5f877b6e48bfe0256345951fec09843879e6c7425a70384418997da24cb"
+    },
+    {
+      "sample_id": "vis-2833_00_0",
+      "image": "images/vis-2833_00_0.png",
+      "image_sha256": "8b9a61b9f298dd27093031b7b0b7ccf9204e0a677d629c34b9efa01cd8deed7f",
+      "annotation": "annotations/vis-2833_00_0.json",
+      "annotation_sha256": "7407cab7ad4c5e3391ba1903e5720bb66260d2fe3abe6669ee237755c78d6122"
+    },
+    {
+      "sample_id": "vis-2833_00_2",
+      "image": "images/vis-2833_00_2.png",
+      "image_sha256": "bb5cc6cb844f0c9b6be1faa5987a4f39147080b1734553badcd66b4c0bd6c90a",
+      "annotation": "annotations/vis-2833_00_2.json",
+      "annotation_sha256": "8f6c702067817882a790f7d98e855f17c2bf8537fdb9964df9c7060c0dec4e80"
+    },
+    {
+      "sample_id": "vis-2836_00_0",
+      "image": "images/vis-2836_00_0.png",
+      "image_sha256": "03078acd635ffa8c5e8897db11bc6e692f1952b31b6f3bacca0d1b7fade3d767",
+      "annotation": "annotations/vis-2836_00_0.json",
+      "annotation_sha256": "1958f3b02340db82ca479d326e73dc558d4cff7fd69f0ca163e4c819e85d12da"
+    },
+    {
+      "sample_id": "vis-2839_03_0",
+      "image": "images/vis-2839_03_0.png",
+      "image_sha256": "f6c67922d3adbcd289b1a8afe637dc50987849436334e36d97bfca7cc0597ac3",
+      "annotation": "annotations/vis-2839_03_0.json",
+      "annotation_sha256": "94be15bd5d0800d365bdd8eaec7380d66c59e64aba966099f85439d56cd998cf"
+    },
+    {
+      "sample_id": "vis-2839_03_1",
+      "image": "images/vis-2839_03_1.png",
+      "image_sha256": "295a22ea1fbb658a7a23a0e90c5bea49d2f95a626d8c9515b95d98c6f695afaf",
+      "annotation": "annotations/vis-2839_03_1.json",
+      "annotation_sha256": "f0e3ce69bd77c6ab99ebc614c6877152b9c892087691d26361f59a4edb44ebc1"
+    },
+    {
+      "sample_id": "vis-2842_00_2",
+      "image": "images/vis-2842_00_2.png",
+      "image_sha256": "2b48687e349c0f1e8e8ba44892d5bc5b007c741c29c5855c744dd6e33da304fe",
+      "annotation": "annotations/vis-2842_00_2.json",
+      "annotation_sha256": "6c88f77fac2babed59dc214e6f37c6d96d6277f85371f1451379b6bb42d6a53a"
+    },
+    {
+      "sample_id": "vis-2842_00_3",
+      "image": "images/vis-2842_00_3.png",
+      "image_sha256": "97056a42801a45e847f93d1dc794eb6e1e32261dbcfeffc606152572d64099d4",
+      "annotation": "annotations/vis-2842_00_3.json",
+      "annotation_sha256": "ae4627c28fbf23535c367a65d11c219710b0af7fb5a142768ccf8b8aa190b991"
+    },
+    {
+      "sample_id": "vis-2844_05_1",
+      "image": "images/vis-2844_05_1.png",
+      "image_sha256": "66582fcbc94ab0a2093e628a786cdb51c78a705aeb783abe11d7a1f798d6c24e",
+      "annotation": "annotations/vis-2844_05_1.json",
+      "annotation_sha256": "b096007b7e7d92330f4302889f97695a8c14d23712aae2514362c0be3606942d"
+    },
+    {
+      "sample_id": "vis-2844_05_2",
+      "image": "images/vis-2844_05_2.png",
+      "image_sha256": "640a1002aaee68d7a079d31fa5f3b9f180487d538917ff6b3b9f325131ac7faf",
+      "annotation": "annotations/vis-2844_05_2.json",
+      "annotation_sha256": "4c39787a871b079c51bec59008aac9b2389d84062959fbdd8abacb49bbf774c3"
+    },
+    {
+      "sample_id": "vis-2845_00_1",
+      "image": "images/vis-2845_00_1.png",
+      "image_sha256": "b7307e53dad8bdf2de505e9780d5adf18fbfb004e1a2a72281fb174394b41696",
+      "annotation": "annotations/vis-2845_00_1.json",
+      "annotation_sha256": "ab60da9fcc603cd663c047d0232d26f66451c02724f3226d801ebd0bec9ab6da"
+    },
+    {
+      "sample_id": "vis-2848_00_1",
+      "image": "images/vis-2848_00_1.png",
+      "image_sha256": "f33087f5da063e1c53a7c08ae8aad868876483cf1b8e648faae359635f05fb51",
+      "annotation": "annotations/vis-2848_00_1.json",
+      "annotation_sha256": "bb394a69e0d7ff4a7e9b7f4c733bafbc7cb1944d24a2d93618d4c75aa489e92d"
+    },
+    {
+      "sample_id": "vis-2851_00_1",
+      "image": "images/vis-2851_00_1.png",
+      "image_sha256": "0918d3ef3b82c2038246cc08aea05876b55c5dd66112f4fbf5290bea1b4ad446",
+      "annotation": "annotations/vis-2851_00_1.json",
+      "annotation_sha256": "508f40734dd716ab588116acb6d025da428dea90adf83293769469f91e1086ee"
+    },
+    {
+      "sample_id": "vis-2854_00_3",
+      "image": "images/vis-2854_00_3.png",
+      "image_sha256": "4112a12dfa55bccf8698340381d69a1c603fe9dd3b8a2c00ad81f2d3e6985292",
+      "annotation": "annotations/vis-2854_00_3.json",
+      "annotation_sha256": "2b8e3e436dec9846ad00994d5052764f99622af651306b11dcb98f0b0e74cee4"
+    },
+    {
+      "sample_id": "vis-2854_00_4",
+      "image": "images/vis-2854_00_4.png",
+      "image_sha256": "630af076dcd09838adfba0f65637dabc1876a350d9b649334f8d690df906dabb",
+      "annotation": "annotations/vis-2854_00_4.json",
+      "annotation_sha256": "8360811d74709898825927585e3282eb36843cffbb92eb6737ae2d5d03334879"
+    },
+    {
+      "sample_id": "vis-2856_00_1",
+      "image": "images/vis-2856_00_1.png",
+      "image_sha256": "c1745489d5ad29770d4c081487f1427b0ce4dc3578473ca9c33c0a8107b7ac5c",
+      "annotation": "annotations/vis-2856_00_1.json",
+      "annotation_sha256": "fc04a4aaabc9d8867d82648a5b0852f4c51e8db6111dbe50d6e136ab98e2fe40"
+    },
+    {
+      "sample_id": "vis-2856_00_3",
+      "image": "images/vis-2856_00_3.png",
+      "image_sha256": "070fb0c8f05edf53cad2d0129f6c10c189037416d75155ed5a8894d48c326628",
+      "annotation": "annotations/vis-2856_00_3.json",
+      "annotation_sha256": "9744179a9fb5886bd299533b33d24a1dc573816a6ac05701551cf8cff180672f"
+    },
+    {
+      "sample_id": "vis-2856_00_5",
+      "image": "images/vis-2856_00_5.png",
+      "image_sha256": "9018855dde140f1fc798026026776f30b5f06b15503df777b5d16ed9ba63b520",
+      "annotation": "annotations/vis-2856_00_5.json",
+      "annotation_sha256": "b340d7271cbf77a8f33be4c07b3b9cc4a2c449be92ca47c84c0416ae60de40b5"
+    },
+    {
+      "sample_id": "vis-2857_00_0",
+      "image": "images/vis-2857_00_0.png",
+      "image_sha256": "7b94e143958a4e02badfb5396655088b80c0ac68d5fad358c8d106959f551137",
+      "annotation": "annotations/vis-2857_00_0.json",
+      "annotation_sha256": "377246b8a6129edb20a5eaf19d54c759c28f84462318d169e31420154d536dd1"
+    },
+    {
+      "sample_id": "vis-2857_00_2",
+      "image": "images/vis-2857_00_2.png",
+      "image_sha256": "46b3992573b8aa62440fdf77b83456ff00af456e202e2b3fc5a4d3b65e081336",
+      "annotation": "annotations/vis-2857_00_2.json",
+      "annotation_sha256": "1f79c397aebe0085995b1f5d8ba15fd28b179f01ab9d5d0225b0ca3852bfcda0"
+    },
+    {
+      "sample_id": "vis-2858_00_3",
+      "image": "images/vis-2858_00_3.png",
+      "image_sha256": "0055dff996a45c1c9e58dac861a1e601001cc06c5eee74f5851932891b3b3bb7",
+      "annotation": "annotations/vis-2858_00_3.json",
+      "annotation_sha256": "6559f7c4f44df9aa88c14b7dcb91bdac4ae8e8de7d4f86ac557dd25a81b6b705"
+    },
+    {
+      "sample_id": "vis-2858_00_4",
+      "image": "images/vis-2858_00_4.png",
+      "image_sha256": "c8f6a7c47c988afb31ccc4eb382073601b4c23a5fd2ced1581254c047c148d07",
+      "annotation": "annotations/vis-2858_00_4.json",
+      "annotation_sha256": "fe638cea366b433062c9ca870028e72f189ad925de731d0ae4aecca470b25611"
+    },
+    {
+      "sample_id": "vis-2863_00_0",
+      "image": "images/vis-2863_00_0.png",
+      "image_sha256": "09889e8b6d3dac80461d19696785ba85f21397a5a4b7bad1717e08cae3ff7240",
+      "annotation": "annotations/vis-2863_00_0.json",
+      "annotation_sha256": "eae25ef741b30249f3af440ee8c3b27963fa939b29a3e7fb5ce4261eeb1489b3"
+    },
+    {
+      "sample_id": "vis-2863_00_1",
+      "image": "images/vis-2863_00_1.png",
+      "image_sha256": "eb3dcc293d329b19605a01919f9ff4cb2a2a349f473709f1ac10b2d3a6b6e60a",
+      "annotation": "annotations/vis-2863_00_1.json",
+      "annotation_sha256": "c49968fa85c55b398018342f185cc708538756f68851a644abb908f3b299797f"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.y": "F1",
+        "color": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3",
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "single_radar",
+      "encodings": {
+        "position.theta": "F5",
+        "position.radius": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F7",
+          "F8"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2833_00_2",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "geo_point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F5",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C3",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F6",
+        "position.y": "F7",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C4",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F8",
+        "position.y": "F9",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C5",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F10",
+        "position.y": "F11",
+        "color": "F3"
+      },
+      "repetition_position": []
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "longitude"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "latitude"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "selection_class"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "card_count_bin"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "card_histogram_count"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "transfer_bin"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "transfer_histogram_count"
+    },
+    {
+      "field_id": "F8",
+      "image_role": "scatter_x"
+    },
+    {
+      "field_id": "F9",
+      "image_role": "scatter_y"
+    },
+    {
+      "field_id": "F10",
+      "image_role": "job_category"
+    },
+    {
+      "field_id": "F11",
+      "image_role": "job_histogram_count"
+    }
+  ],
+  "image_observation": "上方地图、下方四个不同编码角色的图表保持五个 units；并排本身不等于一个 facet 字段。保留原复核草稿的联动 selection 字段，不把不同 histogram 的统计字段强制合并。"
+}

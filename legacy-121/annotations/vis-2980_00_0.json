@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2980_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "求解器列"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "类别行"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "准确性色值"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "条件面板"
+    }
+  ],
+  "image_observation": "difference、num_selected、is_correct 三块绿色分区矩阵分别成面板。"
+}

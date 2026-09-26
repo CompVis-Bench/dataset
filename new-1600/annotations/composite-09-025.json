@@ -1,0 +1,61 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3",
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F12",
+        "position.y": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F7"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.x": "F13",
+        "position.y": "F14",
+        "color": "F10"
+      },
+      "external_encodings": {
+        "position": [
+          "F11"
+        ]
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "link",
+      "encodings": {
+        "source": "F15",
+        "target": "F16",
+        "stroke.width": "F17"
+      },
+      "external_encodings": {
+        "position": []
+      },
+      "link_targets": [
+        "C2",
+        "C3"
+      ]
+    }
+  ]
+}

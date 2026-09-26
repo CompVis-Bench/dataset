@@ -1,0 +1,45 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2821_00_4",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_boxplot",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "bar",
+      "encodings": {
+        "position.x": "F3",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "reach_distribution"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "solution_row"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "metric_value"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "metric_column"
+    }
+  ],
+  "image_observation": "Reach 列为共用坐标的多箱线；其余指标柱列复制坐标系。solution 是内部 y，指标列是柱图的一个外部维度。不同指标数值由 metric_value 长表角色表达，不猜原始列名。"
+}

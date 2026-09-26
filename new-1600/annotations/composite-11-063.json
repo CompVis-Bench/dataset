@@ -1,0 +1,29 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "sunburst",
+      "encodings": {
+        "position.theta": "F1",
+        "position.radius": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "treemap",
+      "encodings": {
+        "size": "F5",
+        "color": "F6"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

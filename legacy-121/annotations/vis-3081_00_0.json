@@ -1,0 +1,62 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3081_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "link",
+      "encodings": {
+        "stroke.width": "F1",
+        "source": "F6",
+        "target": "F7"
+      },
+      "repetition_position": [],
+      "link_targets": [
+        "C2"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "rect_heatmap",
+      "encodings": {
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4",
+        "F5"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "记录数"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "节点内分区"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "偏差"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "节点"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "节点阶段列"
+    },
+    {
+      "field_id": "F6",
+      "image_role": "流带起点节点"
+    },
+    {
+      "field_id": "F7",
+      "image_role": "流带终点节点"
+    }
+  ],
+  "image_observation": "灰色带连接分区节点，节点内部纵向色块表示偏差；节点内部色块按节点身份重复。"
+}

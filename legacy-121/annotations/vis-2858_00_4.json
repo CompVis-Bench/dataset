@@ -1,0 +1,54 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2858_00_4",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "single_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "size": "F5"
+      },
+      "repetition_position": [
+        "F3",
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "time"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "person_percentage"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "career_column"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "event_row"
+    },
+    {
+      "field_id": "F5",
+      "image_role": "observation_count"
+    }
+  ],
+  "image_observation": "图中列标题是 Acad. Post./Engineer，行标题是 Advanced course/Award。它们是两个独立字段；修正旧标注把 row/column 都绑定同一 career 字段的错误。线与点继承同一组两维定位字段。"
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3205_00_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F1",
+        "color": "F2"
+      },
+      "repetition_position": [
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "link",
+      "encodings": {},
+      "repetition_position": [],
+      "link_targets": [
+        "C1"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "模态"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "情绪"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "嵌入横向位置"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "嵌入纵向位置"
+    }
+  ],
+  "image_observation": "嵌入空间上的节点为分段情绪环，节点间时间连接单列；环内部模态和情绪与外部二维位置分开。"
+}

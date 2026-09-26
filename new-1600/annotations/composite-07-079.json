@@ -1,0 +1,18 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "circlepacking",
+      "encodings": {
+        "size": "F1"
+      },
+      "external_encodings": {
+        "position": [
+          "F2",
+          "F3",
+          "F4"
+        ]
+      }
+    }
+  ]
+}

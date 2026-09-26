@@ -1,0 +1,47 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3322_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "dotplot",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F4"
+      },
+      "repetition_position": [
+        "F3"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "系数"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "堆叠计数"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "设备方案"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "不确定性密度"
+    }
+  ],
+  "image_observation": "四个设备方案面板内是蓝色点堆直方分布与灰色不确定性面积；一个方案字段 wrap 成 2×2。"
+}

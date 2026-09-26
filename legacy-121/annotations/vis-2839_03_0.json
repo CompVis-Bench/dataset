@@ -1,0 +1,46 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2839_03_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C2",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "time"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "distance"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "trajectory_category"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "trajectory_identity"
+    }
+  ],
+  "image_observation": "下面按轨迹 ID 重复面积小图，内部时间/距离与上方 overview 对应。类别颜色不是 plain_area 模板允许的通道，且同色可出现在多个轨迹，不把颜色当成重复字段。"
+}

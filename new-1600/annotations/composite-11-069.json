@@ -1,0 +1,30 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "calendar_heatmap",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": [
+          "F4"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "contour",
+      "encodings": {
+        "position.x": "F5",
+        "position.y": "F6",
+        "color": "F7"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

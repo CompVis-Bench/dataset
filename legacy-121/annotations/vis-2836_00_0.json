@@ -1,0 +1,56 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-2836_00_0",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "multi_line",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    },
+    {
+      "chart_id": "C2",
+      "variation": "parallel_coordinates",
+      "encodings": {
+        "position.x": "F4",
+        "position.y": "F1"
+      },
+      "repetition_position": []
+    },
+    {
+      "chart_id": "C3",
+      "variation": "single_boxplot",
+      "encodings": {
+        "position.y": "F1"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "feature_value"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "distribution_frequency"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "distribution_state"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "feature_axis"
+    }
+  ],
+  "image_observation": "F1…F12 特征各有独立数值量纲，顶部多线小图和轴内单箱体沿 feature_axis 重复。采用 single_boxplot+外部特征字段。PCP 的 y 是特征值，不能与顶部 density 的频数 y 合并；移除无法与顶部 distribution_state 证实相同的 PCP 颜色。"
+}

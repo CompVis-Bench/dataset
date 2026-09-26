@@ -1,0 +1,37 @@
+{
+  "schema_version": "chart_encoding_variation_only_v3",
+  "sample_id": "vis-3186_00_3",
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "repetition_position": [
+        "F4"
+      ]
+    }
+  ],
+  "data_fields": [
+    {
+      "field_id": "F1",
+      "image_role": "横轴特征值"
+    },
+    {
+      "field_id": "F2",
+      "image_role": "纵轴特征值"
+    },
+    {
+      "field_id": "F3",
+      "image_role": "数据子集"
+    },
+    {
+      "field_id": "F4",
+      "image_role": "特征对"
+    }
+  ],
+  "image_observation": "三幅散点分别比较 DNA/S100/PD1 等特征对；一个特征对字段表示所选组合，不把三幅图算三维。"
+}

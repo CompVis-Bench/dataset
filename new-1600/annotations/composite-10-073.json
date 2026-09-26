@@ -1,0 +1,76 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "point",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2",
+        "color": "F3"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "stacked_bar",
+      "encodings": {
+        "color": "F15",
+        "position.y": "F11",
+        "position.x": "F4"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "stacked_bar",
+      "encodings": {
+        "color": "F16",
+        "position.y": "F5",
+        "position.x": "F14"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "connected_scatterplot",
+      "encodings": {
+        "position.x": "F12",
+        "position.y": "F7",
+        "color": "F8"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "stacked_bar",
+      "encodings": {
+        "position.x": "F13",
+        "position.y": "F9",
+        "color": "F18"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C6",
+      "variation": "stacked_bar",
+      "encodings": {
+        "color": "F19",
+        "position.y": "F10",
+        "position.x": "F17"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}

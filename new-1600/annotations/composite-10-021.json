@@ -1,0 +1,67 @@
+{
+  "charts": [
+    {
+      "chart_id": "C1",
+      "variation": "plain_area",
+      "encodings": {
+        "position.x": "F1",
+        "position.y": "F2"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C2",
+      "variation": "grouped_bar",
+      "encodings": {
+        "color": "F6",
+        "position.y": "F5",
+        "position.x": "F4",
+        "position.y_offset": "F6"
+      },
+      "external_encodings": {
+        "position": [
+          "F3"
+        ]
+      }
+    },
+    {
+      "chart_id": "C3",
+      "variation": "geo_point",
+      "encodings": {
+        "position.x": "F13",
+        "position.y": "F8"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C4",
+      "variation": "geo_line",
+      "encodings": {
+        "position.x": "F13",
+        "position.y": "F8",
+        "color": "F9"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    },
+    {
+      "chart_id": "C5",
+      "variation": "pie/donut/radial_bar",
+      "encodings": {
+        "position.theta": "F10",
+        "position.radius": "F11",
+        "color": "F12"
+      },
+      "external_encodings": {
+        "position": []
+      }
+    }
+  ]
+}
