@@ -21,6 +21,10 @@ The two releases are kept separate because they use different annotation
 schemas. See each release's `manifest.json` for the format version and exact
 sample list.
 
+## Project page
+
+Project page: https://compvis-bench.github.io/
+
 ## Data construction
 
 The 121-image seed set consists of selected visualizations from the
