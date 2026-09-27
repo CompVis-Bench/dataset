@@ -21,9 +21,10 @@ The two releases are kept separate because they use different annotation
 schemas. See each release's `manifest.json` for the format version and exact
 sample list.
 
-## Project page
+## Project links
 
-Project page: https://compvis-bench.github.io/
+- Project page: https://compvis-bench.github.io/
+- Randomized renderer: https://compvis-bench.github.io/randomized_renderer/
 
 ## Data construction
 
